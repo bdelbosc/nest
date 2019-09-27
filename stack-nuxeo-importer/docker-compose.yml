@@ -86,7 +86,7 @@ services:
       - ./data/nuxeo/data:/var/lib/nuxeo/data:rw
       - ./data/nuxeo/packages:/opt/nuxeo/server/packages:rw
   traefik:
-    image: traefik:latest
+    image: traefik:maroilles-alpine
     container_name: traefik
     command: --api --docker
     ports:
