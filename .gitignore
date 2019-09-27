@@ -32,3 +32,4 @@ tmp
 requirements.lock
 .factorypath
 dependency-reduced-pom.xml
+docker-entrypoint-initnuxeo.d

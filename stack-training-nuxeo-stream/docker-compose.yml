@@ -1,0 +1,17 @@
+version: '2'
+services:
+        #  producer:
+        #    image: local/training-stream:1.0-SNAPSHOT
+        #    environment:
+        #      JAVA_TOOL_OPTIONS: -Dapp.type=producer -Dlog.type=kafka -Dkafka.bootstrap.servers=kafka:9092
+        #    networks:
+        #      - kafka_default
+  consumer:
+    image: local/training-stream:1.0-SNAPSHOT
+    environment:
+      JAVA_TOOL_OPTIONS: -Dapp.type=consumer -Dlog.type=kafka -Dkafka.bootstrap.servers=kafka:9092
+    networks:
+      - kafka_default
+networks:
+  kafka_default:
+     external: true

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.kafka.defaultConfig">
+  <extension point="kafkaConfig" target="org.nuxeo.runtime.stream.kafka.service">
+    <kafkaConfig name="default" topicPrefix="training-">
+      <producer>
+        <property name="bootstrap.servers">kafka:9092</property>
+      </producer>
+      <consumer>
+        <property name="bootstrap.servers">kafka:9092</property>
+        <property name="request.timeout.ms">65000</property>
+        <property name="max.poll.interval.ms">60000</property>
+        <property name="session.timeout.ms">50000</property>
+        <property name="heartbeat.interval.ms">2000</property>
+        <property name="max.poll.records">10</property>
+      </consumer>
+    </kafkaConfig>
+  </extension>
+</component>

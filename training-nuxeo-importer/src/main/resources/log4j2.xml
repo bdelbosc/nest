@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="30">
+  <Appenders>
+    <Console name="stderr" target="SYSTEM_ERR">
+      <ThresholdFilter level="WARN" onMatch="ACCEPT" />
+      <PatternLayout pattern="%d{HH:mm:ss,SSS} %-5p [%c{3.}] (%t) %m%ex%n" />
+    </Console>
+    <Console name="stdout" target="SYSTEM_OUT">
+      <LevelRangeFilter minLevel="INFO" maxLevel="DEBUG" />
+      <PatternLayout pattern="%d{HH:mm:ss,SSS} %-5p [%c{3.}] (%t) %m%ex%n" />
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Logger name="org.nuxeo" level="warn" />
+    <Logger name="org.nuxeo.lib.stream" level="warn" />
+    <Logger name="org.nuxeo.training" level="info" />
+    <Root level="warn">
+      <AppenderRef ref="stderr" />
+      <AppenderRef ref="stdout" />
+    </Root>
+  </Loggers>
+</Configuration>
