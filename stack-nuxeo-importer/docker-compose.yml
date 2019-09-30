@@ -49,7 +49,7 @@ services:
     volumes:
       - esdata:/usr/share/elasticsearch/data:rw
   kafkahq:
-    image: tchiotludo/kafkahq
+    image: tchiotludo/kafkahq:0.9.0
     container_name: kafkahq
     hostname: kafkahq
     labels:
@@ -58,7 +58,7 @@ services:
     depends_on:
       - kafka
     volumes:
-      - ./kafkahq/kafkahq.conf:/app/application.conf:ro
+      - ./kafkahq/kafkahq.yml:/app/application.yml:ro
   nuxeo:
     image: packages.nuxeo.com:5000/nuxeo/nuxeo:11.1-SNAPSHOT
     container_name: nuxeo
@@ -102,5 +102,5 @@ volumes:
   esdata:
     driver_opts:
       type: none
-      device: /home/ben/dev/tickets/formation-stream-2019/stack-nuxeo-importer/data/elastic
+      device: $PWD/data/elastic
       o: bind
