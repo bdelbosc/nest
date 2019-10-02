@@ -47,6 +47,7 @@ Options to put in `JAVA_TOOL_OPTIONS` env, using `-D`.
 |`cq.path` | `/tmp/training`| The Chronicle Queue root path |
 
 ## Around Kafka
+
 ### Using Kafka sh scripts
 
 ```bash
@@ -111,7 +112,6 @@ docker exec -it kafka /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server
 -- |All|0|0|NA|1569851945716|2019-09-30T13:59:05.716Z|2019-09-30T14:22:49.502Z|1039|1039|1039|1039|0|
 
 ```
-
 
 ### Using KafkaHQ
 

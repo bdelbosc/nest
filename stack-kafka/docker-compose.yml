@@ -20,13 +20,26 @@ services:
       KAFKA_OFFSETS_RETENTION_MINUTES: 20160
       KAFKA_OFFSETS_TOPIC_NUM_PARTITIONS: 4
   kafkahq:
-    image: tchiotludo/kafkahq:latest
+    image: tchiotludo/kafkahq:0.9.0
     container_name: kafkahq
     hostname: kafkahq
-    ports:
-    - 8080:8080
+    labels:
+      - "traefik.port=8080"
+      - "traefik.frontend.rule=Host:kafkahq.docker.localhost"
     depends_on:
       - kafka
     volumes:
-      - ./kafkahq/kafkahq.conf:/app/application.conf:ro
-
+      - ./kafkahq/kafkahq.yml:/app/application.yml:ro
+  traefik:
+    image: traefik:maroilles-alpine
+    container_name: traefik
+    command: --api --docker
+    ports:
+      - 80:80
+    labels:
+      - "traefik.port=8080"
+      - "traefik.frontend.rule=Host:traefik.docker.localhost"
+    depends_on:
+      - kafka
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro

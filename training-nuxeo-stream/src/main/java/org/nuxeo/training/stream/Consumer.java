@@ -60,7 +60,7 @@ public class Consumer implements Runnable {
             Thread.currentThread().interrupt();
             log.warn("Interrupted");
         } catch (Exception e) {
-            // inside an executor exceptions are part of the result make sure we log them
+            // Exception in an executor are catched make sure they are logged
             log.error(e.getMessage(), e);
             throw e;
         } finally {

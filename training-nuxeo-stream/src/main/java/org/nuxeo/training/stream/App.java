@@ -58,7 +58,7 @@ public class App implements RebalanceListener {
 
     private static final String DEFAULT_LOG_NAME = "myLog";
 
-    private static final int DEFAULT_LOG_SIZE = 4;
+    private static final int DEFAULT_LOG_SIZE = 10;
 
     protected static final String CQ_PATH_PROP = "cq.path";
 
