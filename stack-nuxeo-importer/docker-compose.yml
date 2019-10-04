@@ -3,6 +3,7 @@ services:
   zookeeper:
     image: zookeeper:3.5.5
     container_name: zookeeper
+    user: root
     hostname: zookeeper
     volumes:
       - ./data/zookeeper/data:/datalog
@@ -10,6 +11,7 @@ services:
   kafka:
     image: wurstmeister/kafka:2.12-2.3.0
     container_name: kafka
+    user: root
     hostname: kafka
     environment:
       #KAFKA_BROKER_ID: 1
@@ -26,10 +28,10 @@ services:
     volumes:
       - ./data/kafka/data:/kafka:rw
       - ./data/kafka/log:/opt/kafka/log:rw
-      - /var/run/docker.sock:/var/run/docker.sock:ro
   mongodb:
     image: mongo:4.0.12
     container_name: mongo
+    user: root
     hostname: mongo
     command: mongod --replSet rs0
     volumes:
@@ -40,6 +42,7 @@ services:
     image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.5.3
     container_name: elastic
     hostname: elastic
+    user: ${UID}
     labels:
       - "traefik.port=9200"
       - "traefik.frontend.rule=Host:elastic.docker.localhost"
@@ -52,6 +55,7 @@ services:
     image: tchiotludo/kafkahq:0.9.0
     container_name: kafkahq
     hostname: kafkahq
+    user: root
     labels:
       - "traefik.port=8080"
       - "traefik.frontend.rule=Host:kafkahq.docker.localhost"
@@ -63,6 +67,7 @@ services:
     image: packages.nuxeo.com:5000/nuxeo/nuxeo:11.1-SNAPSHOT
     container_name: nuxeo
     hostname: nuxeo
+    user: ${UID}
     environment:
       JAVA_OPTS: -Xdebug -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
     depends_on:
@@ -89,6 +94,7 @@ services:
     image: traefik:maroilles-alpine
     container_name: traefik
     command: --api --docker
+    user: root
     ports:
       - 80:80
     labels:
