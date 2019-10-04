@@ -3,7 +3,7 @@
 # Import using the nuxeo-importer-stream addon
 # https://github.com/nuxeo/nuxeo-platform-importer/tree/master/nuxeo-importer-stream
 SERVER_URL=${SERVER_URL:-http://nuxeo.docker.localhost}
-NB_DOCS=${NB_DOCS:-1000}
+NB_DOCS=${NB_DOCS:-500}
 NB_THREADS=${NB_THREADS:-2}
 ROOT_FOLDER=${ROOT_FOLDER:-/default-domain/workspaces}
 set -x

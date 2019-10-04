@@ -23,6 +23,7 @@ if your id is different than `1000` update the `../stack-nuxeo-importer/.env` fi
 For Mac OS or Ubuntu 16.04 user, update your `/etc/hosts` add:
 ```bash
 127.0.0.1 nuxeo.docker.localhost
+127.0.0.1 nuxeo-node.docker.localhost
 127.0.0.1 elastic.docker.localhost
 127.0.0.1 kibana.docker.localhost
 127.0.0.1 grafana.docker.localhost
@@ -42,7 +43,7 @@ docker-compose up
 ## Run the Extractor
 
 ```bash
-docker run --rm --name extract -e "JAVA_TOOL_OPTIONS=-Dlog.type=kafka -Dkafka.bootstrap.servers=kafka:9092" --network container:kafka local/training-importer:1.0-SNAPSHOT /bjcp-2015.json /default-domain/workspaces 
+docker run --rm --name extract -e "JAVA_TOOL_OPTIONS=-Dlog.type=kafka -Dkafka.bootstrap.servers=kafka:9092" --network container:kafka local/training-importer:1.0-SNAPSHOT /bjcp-2015.json 
 ```
 
 
@@ -54,7 +55,6 @@ Options to put in `JAVA_TOOL_OPTIONS` env, using `-D`.
 |`log.type` | `chronicle` | Choose between `chronicle` or `kafka` | 
 |`log.name` | `myLog` | Log name | 
 |`log.size` | `4` | Number of partition in the Log | 
-|`timeout.seconds`| `600` | Application shutdown after timeout |
 |`kafka.bootstrap.servers` | `localhost:9092`| The Kafka bootstrap servers | 
 |`cq.path` | `/tmp/training`| The Chronicle Queue root path |
 
@@ -143,12 +143,10 @@ View latency of a stream, the record needs to be a computation Record
 ### Using KafkaHQ
 
 http://kafkahq.docker.localhost/my-cluster/
-User: admin
-Password: admin
 
 ## Stop your stack
 
 ```bash
-# from stack-nuxeo-importer dir:
+# from stack-nuxeo-importer directory:
 docker-compose down --volume
 ```

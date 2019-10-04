@@ -13,7 +13,7 @@
   <Loggers>
     <Logger name="org.nuxeo" level="warn" />
     <Logger name="org.nuxeo.lib.stream" level="warn" />
-    <Logger name="org.nuxeo.training" level="info" />
+    <Logger name="org.nuxeo.training" level="debug" />
     <Root level="warn">
       <AppenderRef ref="stderr" />
       <AppenderRef ref="stdout" />
