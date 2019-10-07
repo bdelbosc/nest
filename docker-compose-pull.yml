@@ -1,0 +1,23 @@
+version: '2'
+services:
+  zookeeper:
+    image: zookeeper:3.5.5
+  kafka:
+    image: wurstmeister/kafka:2.12-2.3.0
+  kafkahq:
+    image: tchiotludo/kafkahq:0.9.0
+  traefik:
+    image: traefik:maroilles-alpine
+  mongodb:
+    image: mongo:4.0.12
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.5.3
+  grafana:
+    image: grafana/grafana:6.4.1
+  graphite:
+    image: graphiteapp/graphite-statsd:1.1.3
+  openjdk:
+    image: openjdk:11-jdk-slim
+  nuxeo:
+    image: packages.nuxeo.com:5000/nuxeo/nuxeo:11.1-SNAPSHOT
+
