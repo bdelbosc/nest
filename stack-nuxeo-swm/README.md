@@ -163,7 +163,67 @@ $ ./bin/bulk-done.sh
 
 ## Generate a failure
 
-Dump a record from a Stream and 
+Dump a record from a Stream
+```bash
+./bin/stream.sh dump -k -l audit --codec avro -n 1  --output /tmp/audit.data
+Dump record to file: /tmp/audit.data
+```
+
+Append this record to another Stream
+```bash
+./bin/stream.sh append -k -l bulkIndex -p 0 --codec avro --input /tmp/audit.data
+```
+
+Observe the warning in the servler.log
+```bash
+nuxeo            | 2019-09-18T12:57:30,052 WARN  [AbstractComputation] Computation: bulkIndex fails last record: bulkIndex-00:+0, retrying ...
+```
+
+Check the policy for the BulkIndex computation:
+```
+<policy name="default" maxRetries="20" delay="1s" maxDelay="60s" continueOnFailure="false" />
+```
+
+After 15 min you should have
+```bash
+nuxeo            | 2019-09-18T13:12:32,117 ERROR [ComputationRunner] Terminate computation: bulkIndex due to previous failure
+```
+
+Check the Grafana dashboard.
+
+Check the Nuxeo Stream Probe with JSF admin center.
+
+### Recovering
+
+#### Using the stream.sh position
+
+Check the lag
+```bash
+./bin/stream.sh lag -k -l bulkIndex
+## Log: bulkIndex partitions: 4
+### Group: bulkIndex
+| partition | lag | pos | end | posOffset | endOffset |
+| --- | ---: | ---: | ---: | ---: | ---: |
+|All|1|0|1|77983721193472|77983721193473|
+```
+
+Move the consumer group position to the end of the partition
+```bash
+./bin/stream.sh position -k -l bulkIndex -g bulkIndex --to-end
+# Moved log bulkIndex, group: bulkIndex, from: 0 to 1
+```
+
+Check the lag again it should 0
+
+### Using the recovery procedure
+
+Edit the nuxeo.conf and add
+```
+nuxeo.stream.recovery.skipFirstFailures=1
+```
+
+Restart nuxeo and check the log.
+
 
 ## Stop your stack
 
