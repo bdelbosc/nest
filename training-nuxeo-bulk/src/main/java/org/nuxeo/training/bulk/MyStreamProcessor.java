@@ -23,6 +23,7 @@ import static org.nuxeo.ecm.core.bulk.BulkAdminServiceImpl.BULK_SCROLL_PRODUCE_I
 import static org.nuxeo.ecm.core.bulk.BulkAdminServiceImpl.BULK_SCROLL_SIZE_PROPERTY;
 import static org.nuxeo.ecm.core.bulk.BulkAdminServiceImpl.DEFAULT_SCROLL_KEEP_ALIVE;
 import static org.nuxeo.ecm.core.bulk.BulkAdminServiceImpl.DEFAULT_SCROLL_SIZE;
+import static org.nuxeo.ecm.core.bulk.BulkAdminServiceImpl.SCROLLER_NAME;
 import static org.nuxeo.ecm.core.bulk.BulkServiceImpl.COMMAND_STREAM;
 import static org.nuxeo.ecm.core.bulk.BulkServiceImpl.STATUS_STREAM;
 import static org.nuxeo.lib.stream.computation.AbstractComputation.INPUT_1;
@@ -40,7 +41,6 @@ import org.nuxeo.runtime.services.config.ConfigurationService;
 import org.nuxeo.runtime.stream.StreamProcessorTopology;
 
 public class MyStreamProcessor implements StreamProcessorTopology {
-    public static final String MY_SCROLLER = "myScroller";
 
     private static final Log log = LogFactory.getLog(MyStreamProcessor.class);
 
@@ -64,8 +64,8 @@ public class MyStreamProcessor implements StreamProcessorTopology {
         }
         mapping.add(String.format("o%s:%s", i, STATUS_STREAM));
         return Topology.builder()
-                       .addComputation(() -> new MyBulkScrollerComputation(MY_SCROLLER, actions.size() + 1, scrollSize,
-                               scrollKeepAlive, scrollProduceImmediate), mapping)
+                       .addComputation(() -> new MyBulkScrollerComputation(SCROLLER_NAME, actions.size() + 1,
+                               scrollSize, scrollKeepAlive, scrollProduceImmediate), mapping)
                        .build();
     }
 
