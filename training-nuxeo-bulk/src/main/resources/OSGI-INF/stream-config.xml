@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.training.bulk.stream.contrib">
+  <require>org.nuxeo.ecm.core.bulk.config</require>
+
+  <implementation class="org.nuxeo.training.bulk.MyComponent" />
+
+</component>

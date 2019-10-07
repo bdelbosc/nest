@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.training.bulk.config">
+  <require>org.nuxeo.ecm.core.bulk.config</require>
+
+  <extension target="org.nuxeo.runtime.ConfigurationService" point="configuration">
+    <property name="nuxeo.core.bulk.scroller.concurrency">0</property>
+  </extension>
+
+</component>
