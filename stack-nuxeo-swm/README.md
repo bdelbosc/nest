@@ -16,7 +16,7 @@ For linux user, check your user id
 ```bash
 id -u
 ``` 
-if your id is different than `1000` update the `../stack-nuxeo-importer/.env` file.
+if your id is different than `1000` update the `.env` file.
 
 If not already done for Mac OS or Ubuntu 16.04 user, update your `/etc/hosts` add:
 ```bash
