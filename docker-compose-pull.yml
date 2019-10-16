@@ -19,5 +19,4 @@ services:
   openjdk:
     image: openjdk:11-jdk-slim
   nuxeo:
-    image: docker.packages.nuxeo.com/nuxeo/nuxeo:11.1-SNAPSHOT
-
+    image: nuxeo/nuxeo:master

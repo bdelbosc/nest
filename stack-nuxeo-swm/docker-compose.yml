@@ -90,7 +90,7 @@ services:
     volumes:
       - ./kafkahq/kafkahq.yml:/app/application.yml:ro
   nuxeo:
-    image: docker.packages.nuxeo.com/nuxeo/nuxeo:11.1-SNAPSHOT
+    image: nuxeo/nuxeo:master
     container_name: nuxeo
     hostname: nuxeo
     user: ${UID}
