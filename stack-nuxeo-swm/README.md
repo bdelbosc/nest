@@ -33,7 +33,6 @@ If not already done for Mac OS or Ubuntu 16.04 user, update your `/etc/hosts` ad
 ## Start the stack
 
 ```bash
-cd ../stack-nuxeo-importer/
 docker-compose up
 ```
 
