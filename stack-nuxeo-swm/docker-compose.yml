@@ -116,7 +116,7 @@ services:
       - ./data/nuxeo/data:/var/lib/nuxeo/data:rw
       - ./data/nuxeo/packages:/opt/nuxeo/server/packages:rw
   stream:
-    image: docker.packages.nuxeo.com/nuxeo/nuxeo:11.1-SNAPSHOT
+    image: nuxeo/nuxeo:master
     container_name: stream
     user: ${UID}
     hostname: stream
