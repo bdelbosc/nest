@@ -1,6 +1,6 @@
-# Training nuxeo-stream importer
+# Producer/Consumer pattern and the Nuxeo Stream Importer
 
-## Build the extractor docker image
+## Build the Dxtractor docker image
 
 Build a jar and docker image:
 ```bash
@@ -19,19 +19,6 @@ For linux user, check your user id
 id -u
 ``` 
 if your id is different than `1000` update the `../stack-nuxeo-importer/.env` file.
-
-For Mac OS or Ubuntu 16.04 user, update your `/etc/hosts` add:
-```bash
-127.0.0.1 nuxeo.docker.localhost
-127.0.0.1 nuxeo-node.docker.localhost
-127.0.0.1 elastic.docker.localhost
-127.0.0.1 kibana.docker.localhost
-127.0.0.1 grafana.docker.localhost
-127.0.0.1 graphite.docker.localhost
-127.0.0.1 kafkahq.docker.localhost
-127.0.0.1 traefik.docker.localhost
-```
-
 
 ## Start the stack
 
@@ -147,6 +134,6 @@ http://kafkahq.docker.localhost/my-cluster/
 ## Stop your stack
 
 ```bash
-# from stack-nuxeo-importer directory:
+cd ../stack-nuxeo-importer/
 docker-compose down --volume
 ```

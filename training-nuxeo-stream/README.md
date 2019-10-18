@@ -1,4 +1,4 @@
-# Training nuxeo-stream lib
+# Nuxeo Stream Lib and Kafka
 
 ## Build
 
@@ -56,6 +56,11 @@ Options to put in `JAVA_TOOL_OPTIONS` env, using `-D`.
 # switch the producer to debug 
 docker exec -it $(docker ps -qf "name=^producer") perl -pi -w -e 's,info,debug,g' /my-log4j2.xml
 ```
+### Simulating a consumer failure
+
+```bash
+echo "a-poison-pill-message boom" | docker run --rm -i --name producer -e "JAVA_TOOL_OPTIONS=-Dlog.type=kafka -Dkafka.bootstrap.servers=kafka:9092" --network container:kafka local/training-stream:1.0-SNAPSHOT 
+```
 
 ## Using Kafka shell scripts
 
@@ -92,3 +97,12 @@ docker exec -it kafka /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server
 
 http://kafkahq.docker.localhost/
 
+## Stop the stacks
+
+```bash
+cd ../stack-nuxeo-stream
+docker-compose down --volume
+
+cd ../stack-kafka
+docker-compose down --volume
+```

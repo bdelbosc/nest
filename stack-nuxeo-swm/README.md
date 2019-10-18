@@ -1,4 +1,5 @@
-# Training Nuxeo with Stream WorkManager and monitoring
+# Stream processor pattern in Nuxeo: audit, StreamWorkManager and Monitoring
+
 ## Make sure previous stack is down
 ```bash
 # from the previous stack directory:
@@ -9,7 +10,7 @@ docker-compose down --volume
 
 Add your `instance.clid` file to the nuxeo data directory
 ```bash
-cp ~/my/nuxeo/instance.clid  ./data/nuxeo/data/
+cp ~/my/nuxeo/instance.clid  ../stack-nuxeo-swm/data/nuxeo/data/
 ``` 
 
 For linux user, check your user id
@@ -18,21 +19,10 @@ id -u
 ``` 
 if your id is different than `1000` update the `.env` file.
 
-If not already done for Mac OS or Ubuntu 16.04 user, update your `/etc/hosts` add:
-```bash
-127.0.0.1 nuxeo.docker.localhost
-127.0.0.1 nuxeo-node.docker.localhost
-127.0.0.1 elastic.docker.localhost
-127.0.0.1 kibana.docker.localhost
-127.0.0.1 grafana.docker.localhost
-127.0.0.1 graphite.docker.localhost
-127.0.0.1 kafkahq.docker.localhost
-127.0.0.1 traefik.docker.localhost
-```
-
 ## Start the stack
 
 ```bash
+cd ../stack-nuxeo-swm/
 docker-compose up
 ```
 
@@ -63,6 +53,7 @@ Password: admin
 ```bash
 ./bin/import.sh
 ```
+## Observe Grafana Nuxeo dashboard
 
 ## Run a bulk command
 
@@ -170,7 +161,7 @@ Dump record to file: /tmp/audit.data
 
 Append this record to another Stream
 ```bash
-./bin/stream.sh append -k -l bulkIndex -p 0 --codec avro --input /tmp/audit.data
+./bin/stream.sh append -k -l bulk-bulkIndex -p 0 --codec avro --input /tmp/audit.data
 ```
 
 Observe the warning in the servler.log
@@ -198,7 +189,7 @@ Check the Nuxeo Stream Probe with JSF admin center.
 
 Check the lag
 ```bash
-./bin/stream.sh lag -k -l bulkIndex
+./bin/stream.sh lag -k -l bulk-bulkIndex
 ## Log: bulkIndex partitions: 4
 ### Group: bulkIndex
 | partition | lag | pos | end | posOffset | endOffset |
@@ -208,7 +199,7 @@ Check the lag
 
 Move the consumer group position to the end of the partition
 ```bash
-./bin/stream.sh position -k -l bulkIndex -g bulkIndex --to-end
+./bin/stream.sh position -k -l bulk-bulkIndex -g bulkIndex --to-end
 # Moved log bulkIndex, group: bulkIndex, from: 0 to 1
 ```
 
@@ -227,5 +218,6 @@ Restart nuxeo and check the log.
 ## Stop your stack
 
 ```bash
+cd ../stack-nuxeo-swm/
 docker-compose down --volume
 ```

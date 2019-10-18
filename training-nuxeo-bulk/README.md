@@ -1,4 +1,4 @@
-# Training nuxeo-stream Bulk Action
+# Bulk Action and the Bulk Service
 
 ## Build the bundle
 
@@ -7,13 +7,12 @@ Build a jar:
 mvn -nsu install -T4 -DskipTests=true
 ```
 
-## Start the stack 
+## Start the previous importer stack
 
 ```bash
-cd ../stack-nuxeo-swm
+cd ../stack-nuxeo-importer
 docker-compose up
 ``` 
-
 
 ## Deploy the bundle into the stack-nuxeo-swm
 
@@ -23,15 +22,11 @@ docker cp ../training-nuxeo-bulk/target/training-nuxeo-bulk-1.0-SNAPSHOT.jar nux
 
 ## Restart nuxeo
 
-```bash
-./bin/nuxeoctl.sh restart
-``` 
-
+Using ctop restart nuxeo
 
 ## Run the bulk action
 
 ```bash
-
-docker-compose up
+./bin/training-bulk.sh
 ``` 
 
