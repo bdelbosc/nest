@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.training.bulk.stream.contrib">
+
+  <require>org.nuxeo.ecm.core.bulk.config</require>
+
+  <extension target="org.nuxeo.ecm.core.bulk" point="actions">
+    <action name="myAction" bucketSize="10" batchSize="5" httpEnabled="true" />
+  </extension>
+
+  <extension target="org.nuxeo.runtime.stream.service" point="streamProcessor">
+    <streamProcessor name="myAction" class="org.nuxeo.training.bulk.MyActionProcessor" logConfig="bulk"
+      defaultConcurrency="2" defaultPartitions="2">
+      <policy name="default" maxRetries="3" delay="100ms" maxDelay="10s" continueOnFailure="true" />
+    </streamProcessor>
+  </extension>
+
+</component>
