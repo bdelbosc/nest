@@ -8,6 +8,7 @@
 - docker-compose >= 1.21
 - Some disk space
 ```bash
+   docker system df
    docker system prune
    docker volume prune
 ```
