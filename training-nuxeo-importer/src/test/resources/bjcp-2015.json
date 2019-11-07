@@ -1276,6 +1276,7 @@
         "styles": [
           {
             "name": "Pale Kellerbier",
+            "id": "7C1",
             "notes": "A very common seasonal summer beer brewed by many of the Munich area breweries and served in the beer gardens, where they are very popular.",
             "overall_impression": "A young, fresh Helles, so while still a malty, fully-attenuated Pils malt showcase, the hop character (aroma, flavor and bitterness) is more pronounced, and the beer is cloudy, often with some level of diacetyl, and possibly has some green apple and/or other yeast-derived notes. As with the traditional Helles, the Keller version is still a beer intended to be drunk by the liter, so overall it should remain a light, refreshing, easy drinking golden lager.",
             "aroma": "Moderately-low to moderately-high spicy, floral, or herbal hop aroma. Very low to moderate diacetyl, possible very low green apple or other yeast derived notes. Pleasantly grainy-sweet, clean malt aroma, with possible low background note of DMS.",
@@ -1329,6 +1330,7 @@
           },
           {
             "name": "Amber Kellerbier",
+            "id": "7C2",
             "notes": "The original style of Kellerbier from the Franconia area of Germany. A much older style compared to the relatively more recent pale Helles-Style Kellerbier that is popular in the Munich area today.",
             "overall_impression": "A young, unfiltered, and unpasteurized beer that is between a Helles and Märzen in color, spicier in the hops with greater attenuation. Interpretations range in color and balance, but remain in the drinkable 4.8% ABV neighborhood. Balance ranges from the dry, spicy and pale-colored interpretations by St. Georgen and Löwenbräu of Buttenheim, to darker and maltier interpretations in the Fränkische Schweiz. This style is above all a method of producing simple drinkable beers for neighbors out of local ingredients to be served fresh. Balance with a focus on drinkability and digestibility is important.",
             "aroma": "Moderate intensity of German malt, typically rich, bready, somewhat toasty, with light bread crust notes. Moderately-low to moderate spicy peppery hop aroma. Very low to low diacetyl, occasionally low to moderately-low sulfur and very low green apple or other yeast-derived notes. Caramel, biscuity, or roasted malt aroma is inappropriate.",
@@ -2913,6 +2915,7 @@
         "styles": [
           {
             "name": "Burton Ale",
+            "id": "17A1",
             "overall_impression": "A rich, malty, sweet, and bitter dark ale of moderately strong alcohol. Full bodied and chewy with a balanced hoppy finish and complex malty and hoppy aroma. Fruity notes accentuate the malt richness, while the hops help balance the sweeter finish.",
             "aroma": "Moderately strong, rich, and sweet malty aroma with deep toast or dark caramel notes. No roasty or burnt malt apparent, but a bready and biscuity base is common. Dark or dried fruit (plums, figs, prunes, raisins) often present at up to a moderate level. A light alcohol presence may be noted, but should not be sharp. Hops can be light to moderate, and reflective of fruity, floral, woody, or spicy English varieties. The malt makes the strongest impression in the balance, but the other aspects add an aromatic complexity.",
             "appearance": "Light copper to dark brown in color. Darker versions can be nearly opaque, but clarity should be good when noted. Moderate-sized, fine-textured, cream-colored head, persistent.",
@@ -3660,6 +3663,7 @@
         "styles": [
           {
             "name": "Belgian IPA",
+            "id": "21B1",
             "overall_impression": "An IPA with the fruitiness and spiciness derived from the use of Belgian yeast. The examples from Belgium tend to be lighter in color and more attenuated, similar to a tripel that has been brewed with more hops. This beer has a more complex flavor profile and may be higher in alcohol than a typical IPA.",
             "aroma": "Moderate to high hop aroma, often tropical, stone fruit, citrus or pine-like typical of American or New World hop varieties. Floral and spicy aromas are also found indicating European hops. Grassy aroma due to dry hopping may be present. Gentle, grainy-sweet malt aroma, with little to no caramel. Fruity esters are moderate to high and may include aromas of bananas, pears and apples. Light clove-like phenols may be noticeable. Belgian candi sugar-like aromas are sometimes present.",
             "appearance": "Light golden to amber in color. Off-white head is moderate to large in size and has good retention. Clarity is fair to quite hazy in dry hopped examples.",
@@ -3713,6 +3717,7 @@
           },
           {
             "name": "Black IPA",
+            "id": "21B2",
             "overall_impression": "A beer with the dryness, hop-forward balance, and flavor characteristics of an American IPA, only darker in color – but without strongly roasted or burnt flavors. The flavor of darker malts is gentle and supportive, not a major flavor component. Drinkability is a key characteristic.",
             "aroma": "A moderate to high hop aroma, often with a stone fruit, tropical, citrusy, resinous, piney, berry, or melon character. If dry hopped, can have an additional floral, herbal, or grassy aroma, although this is not required. Very low to moderate dark malt aroma, which can optionally include light chocolate, coffee, or toast notes. Some clean or lightly caramelly malty sweetness may be found in the background. Fruitiness, either from esters or from hops, may also be detected in some versions, although a neutral fermentation character is also acceptable.",
             "appearance": "Color ranges from dark brown to black. Should be clear, although unfiltered dry-hopped versions may be a bit hazy; if opaque, should not be murky. Good head stand with light tan to tan color should persist.",
@@ -3765,6 +3770,7 @@
           },
           {
             "name": "Brown IPA",
+            "id": "21B3",
             "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, chocolate, toffee, and/or dark fruit malt character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
             "aroma": "A moderate to moderately-strong fresh hop aroma featuring one or more characteristics of American or New World hops, such as tropical fruit, stone fruit, citrus, floral, spicy, berry, melon, pine, resinous, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features chocolate, nuts, dark caramel, toffee, toasted bread, and/or dark fruit character. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
             "appearance": "Color ranges from reddish-brown to dark brown but not black. Frequently opaque, but should be clear if visible. Unfiltered dry-hopped versions may be a bit hazy. Medium-sized, cream-colored to tan head with good persistence.",
@@ -3816,6 +3822,7 @@
           },
           {
             "name": "Red IPA",
+            "id": "21B4",
             "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, toffee, and/or dark fruit malt character. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Red IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
             "aroma": "A moderate to strong fresh hop aroma featuring one or more characteristics of American or New World hops, such as tropical fruit, stone fruit, citrus, floral, spicy, berry, melon, pine, resinous, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features caramel, toffee, toasty, and/or dark fruit character. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
             "appearance": "Color ranges from light reddish-amber to dark reddish-copper. Should be clear, although unfiltered dry-hopped versions may be a bit hazy. Medium-sized, off-white to cream-colored head with good persistence.",
@@ -3868,6 +3875,7 @@
           },
           {
             "name": "Rye IPA",
+            "id": "21B5",
             "overall_impression": "A decidedly hoppy and bitter, moderately strong American pale ale, showcasing modern American and New World hop varieties and rye malt. The balance is hop-forward, with a clean fermentation profile, dry finish, and clean, supporting malt allowing a creative range of hop character to shine through.",
             "aroma": "A prominent to intense hop aroma featuring one or more characteristics of American or New World hops, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. It may have low peppery rye malt aroma. A low to medium-low clean grainy-malty aroma may be found in the background. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
             "appearance": "Color ranges from medium gold to light reddish-amber. Should be clear, although unfiltered dry-hopped versions may be a bit hazy. Medium-sized, white to off-white head with good persistence.",
@@ -3920,6 +3928,7 @@
           },
           {
             "name": "White IPA",
+            "id": "21B6",
             "overall_impression": "A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring either the distinctive yeast and/or spice additions typical of a Belgian witbier.",
             "aroma": "Moderate fruity esters – banana, citrus, perhaps apricot. May have light to moderate spice aroma such as coriander or pepper from actual spice additions and/or Belgian yeast. Hop aroma is moderately-low to medium, usually American or New World type with stone fruit, citrus and tropical aromas. Esters and spices may reduce hop aroma perception. Light clove-like phenolics may be present.",
             "appearance": "Pale to deep golden color, typically hazy. Moderate to large, dense white head that persists.",
@@ -3972,6 +3981,7 @@
           },
           {
             "name": "New England IPA",
+            "id": "21B7",
             "overall_impression": "An American IPA with intense fruit flavors and aromas, a soft body, and smooth mouthfeel, and often opaque with substantial haze. Less perceived bitterness than traditional IPAs but always massively hop forward. This emphasis on late hopping, especially dry hopping, with hops with tropical fruit qualities lends the specific ‘juicy’ character for which this style is known.",
             "aroma": "Intense hop aroma, typically with fruity qualities (stone fruit, tropical fruit, and citrus are most commonly present) reflective of newer American and New World hop varieties without being grassy or herbaceous. Clean, neutral malt in the background, potentially with a light bready sweetness without caramel or toast. Absence of any malt character is a fault. Neutral to fruity fermentation character that is well-integrated with the hops. A creamy, buttery, or acidic aroma is inappropriate. Any perceived alcohol character should be restrained and never hot.",
             "appearance": "Color ranges from straw to yellow, sometimes with an orange hue. Hazy, often opaque, clarity; should not be cloudy or murky. The opacity can add a ‘shine’ to the beer and make the color seem darker. Any visible floating particulates (hop matter, yeast clumps, etc.) are a fault. Medium to rocky meringue white head with high to very high retention.",
@@ -5151,9 +5161,10 @@
     "id": "27",
     "notes": "The Historical Beer category contains styles that either have all but died out in modern times, or that were much more popular in past times and are known only through recreations. This category can also be used for traditional or indigenous beers of cultural importance within certain countries. Placing a beer in the historical category does not imply that it is not currently being produced, just that it is a very minor style or perhaps is in the process of rediscovery by craft brewers.",
     "entry_instructions": "The entrant must either specify a style with a BJCP-supplied description from the list below, or specify a different historical beer style that is not described elsewhere in these guidelines. In the case of a style that has changed substantially over the years (such as Porter or Stout), the entrant may specify an existing BJCP style as well as an era (e.g., 1820 English Porter). When the entrant specifies any style not on the BJCP-supplied list, the entrant must provide a description of the style for the judges in sufficient detail to allow the beer to be judged. If a beer is entered with just a style name and no description, it is very unlikely that judges will understand how to judge it. Currently defined examples: _Gose_, _Piwo Grodziskie_, _Lichtenhainer_, _Roggenbier_, _Sahti_, _Kentucky Common_, _Pre-Prohibition Lager_, _Pre-Prohibition Porter_, _London Brown Ale_.",
-    "styles": [
+    "subcategories": [
       {
         "name": "Gose",
+        "id": "27A1",
         "overall_impression": "A highly-carbonated, tart and fruity wheat ale with a restrained coriander and salt character and low bitterness. Very refreshing, with bright flavors and high attenuation.",
         "aroma": "Light to moderately fruity aroma of pome fruit. Light sourness, slightly sharp. Noticeable coriander, which can have an aromatic lemony quality, and an intensity up to moderate. Light bready, doughy, yeasty character like uncooked sourdough bread. The acidity and coriander can give a bright, lively impression. The salt may be perceived as a very light, clean sea breeze character or just a general freshness, if noticeable at all.",
         "appearance": "Unfiltered, with a moderate to full haze. Moderate to tall sized white head with tight bubbles and good retention. Effervescent. Medium yellow color.",
@@ -5203,6 +5214,7 @@
       },
       {
         "name": "Kentucky Common",
+        "id": "27A2",
         "overall_impression": "A darker-colored, light-flavored, malt-accented beer with a dry finish and interesting character malt flavors. Refreshing due to its high carbonation and mild flavors, and highly sessionable due to being served very fresh and with restrained alcohol levels.",
         "aroma": "Low to medium grainy, corn-like or sweet maltiness with a low toast, biscuity-grainy, bready, or caramel malt accent. Medium to moderately-low hop aroma, usually floral or spicy in character. Clean fermentation character, with possible faint berry ester. Low levels of DMS are acceptable. No sourness. Malt-forward in the balance.",
         "appearance": "Amber-orange to light brown in color. Typically clear, but may have some light haze due to limited conditioning. Foam stand may not be long lasting, and is usually white to beige in color.",
@@ -5248,6 +5260,7 @@
       },
       {
         "name": "Lichtenhainer",
+        "id": "27A3",
         "overall_impression": "A sour, smoked, lower-gravity historical German wheat beer. Complex yet refreshing character due to high attenuation and carbonation, along with low bitterness and moderate sourness.",
         "aroma": "Moderately strong fresh smoky aroma, light hints of sourness, medium-low fruity esters, possibly apples or lemons, moderate bready-grainy malt. The smoke character is stronger than the bready notes, and the smoke has a ‘dry’ character, like the remnants of an old fire, not a ‘greasy’ smoke.",
         "appearance": "Tall off-white head, rocky and persistent. Deep yellow to light gold color. Fair clarity, may be somewhat hazy.",
@@ -5292,6 +5305,7 @@
       },
       {
         "name": "London Brown Ale",
+        "id": "27A4",
         "overall_impression": "A luscious, sweet, malt-oriented dark brown ale, with caramel and toffee malt complexity and a sweet finish.",
         "aroma": "Moderate malty-sweet aroma, often with a rich, caramel or toffee-like character. Low to medium fruity esters, often dark fruit like plums. Very low to no hop aroma, earthy or floral qualities.",
         "appearance": "Medium to very dark brown color, but can be nearly black. Nearly opaque, although should be relatively clear if visible. Low to moderate off-white to tan head.",
@@ -5340,6 +5354,7 @@
       },
       {
         "name": "Piwo Grodziskie",
+        "id": "27A5",
         "overall_impression": "A low-gravity, highly-carbonated, light-bodied ale combining an oak-smoked flavor with a clean hop bitterness. Highly sessionable.",
         "aroma": "Low to moderate oak wood smoke is the most prominent aroma component, but can be subtle and hard to detect. A low spicy, herbal, or floral hop aroma is typically present, and should be lower than or equal to the smoke in intensity. Hints of grainy wheat are also detected in the best examples. The aroma is otherwise clean, although light pome fruit esters (especially ripe red apple or pear) are welcome. No acidity. Slight water-derived sulfury notes may be present.",
         "appearance": "Pale yellow to medium gold in color with excellent clarity. A tall, billowy, white, tightly-knit head with excellent retention is distinctive. Murkiness is a fault.",
@@ -5384,6 +5399,7 @@
       },
       {
         "name": "Pre-Prohibition Lager",
+        "id": "27A6",
         "overall_impression": "A clean, refreshing, but bitter pale lager, often showcasing a grainy-sweet corn flavor. All malt or rice-based versions have a crisper, more neutral character. The higher bitterness level is the largest differentiator between this style and most modern mass-market pale lagers, but the more robust flavor profile also sets it apart.",
         "aroma": "Low to medium grainy, corn-like or sweet maltiness may be evident (although rice-based beers are more neutral). Medium to moderately high hop aroma, with a range of character from rustic to floral to herbal/spicy; a fruity or citrusy modern hop character is inappropriate. Clean lager character. Low DMS is acceptable. May show some yeast character, as with modern American lagers; allow for a range of subtle supporting yeast notes.",
         "appearance": "Yellow to deep gold color. Substantial, long lasting white head. Bright clarity.",
@@ -5434,6 +5450,7 @@
       },
       {
         "name": "Pre-Prohibition Porter",
+        "id": "27A7",
         "overall_impression": "An American adaptation of English Porter using American ingredients, including adjuncts.",
         "aroma": "Base grainy malt aroma with low levels of dark malt (slight burnt or chocolate notes). Low hop aroma. Low to moderate low levels of DMS acceptable. May show low levels of caramel and biscuit aroma. No to very low esters. Light adjunct (licorice, molasses) aroma acceptable. Diacetyl low to none. Clean lager profile acceptable.",
         "appearance": "Medium to dark brown, though some examples can be nearly black in color, with ruby or mahogany highlights. Relatively clear. Light to medium tan head which will persist in the glass.",
@@ -5481,6 +5498,7 @@
       },
       {
         "name": "Roggenbier",
+        "id": "27A8",
         "overall_impression": "A dunkelweizen made with rye rather than wheat, but with a greater body and light finishing hops.",
         "aroma": "Light to moderate spicy rye aroma intermingled with light to moderate weizen yeast aromatics (spicy clove and fruity esters, either banana or citrus). Light spicy, floral, or herbal hops are acceptable.",
         "appearance": "Light coppery-orange to very dark reddish or coppery-brown color. Large creamy off-white to tan head, quite dense and persistent (often thick and rocky). Cloudy, hazy appearance.",
@@ -5526,6 +5544,7 @@
       },
       {
         "name": "Sahti",
+        "id": "27A9",
         "overall_impression": "A sweet, heavy, strong traditional Finnish beer with a rye, juniper, and juniper berry flavor and a strong banana-clove yeast character.",
         "aroma": "High banana esters with moderate to moderately-high clove-like phenolics. Not sour. May have a low to moderate juniper character. Grainy malt, caramel, and rye in background. Light alcohol aroma. Sweet malt impression.",
         "appearance": "Pale yellow to dark brown color; most are medium to dark amber. Generally quite cloudy (unfiltered). Little head, due to low carbonation.",

@@ -64,11 +64,15 @@ public class Producer implements Runnable {
                 JsonNode style = jp.readValueAsTree();
                 String name = getValue(style, "name");
                 String styleId = String.format("%02d", style.get("id").asInt());
+                if ("00".equals(styleId)) {
+                    styleId = style.get("id").asText();
+                }
                 String note = getValue(style, "notes");
                 appendStyle(styleId, name, note);
                 JsonNode subcat = style.get("subcategories");
                 if (subcat != null) {
-                    subcat.elements().forEachRemaining(subcategory -> appendSubCategory(styleId, subcategory));
+                    String finalStyleId = styleId;
+                    subcat.elements().forEachRemaining(subcategory -> appendSubCategory(finalStyleId, subcategory));
                 }
             }
         } catch (Exception e) {
@@ -104,12 +108,13 @@ public class Producer implements Runnable {
     }
 
     private void appendSubCategory(String styleId, JsonNode subcat) {
-        String subCategoryId = getValue(subcat, "id");
+        String subCategoryId = formatSubCat(getValue(subcat, "id"));
         String name = getValue(subcat, "name");
         String desc = getValue(subcat, "overall_impression", "");
         HashMap<String, Serializable> props = new HashMap<>();
         props.put("dc:title", subCategoryId + " " + name);
         props.put("dc:description", desc);
+        props.put("bjcp:overall_impression", desc);
         props.put("bjcp:aroma", getValue(subcat, "aroma"));
         props.put("bjcp:appearance", getValue(subcat, "appearance"));
         props.put("bjcp:flavor", getValue(subcat, "flavor"));
@@ -133,6 +138,17 @@ public class Producer implements Runnable {
                                              .build();
         LogOffset offset = appender.append(styleId, doc);
         log.debug("Appended Sub Category offset: {} {} ", offset, doc);
+        JsonNode subSubcat = subcat.get("styles");
+        if (subSubcat != null) {
+            subSubcat.elements().forEachRemaining(subcategory -> appendSubCategory(styleId, subcategory));
+        }
+    }
+
+    private String formatSubCat(String name) {
+        if (name.matches("[0-9][A-Z].*")) {
+            return "0" + name;
+        }
+        return name;
     }
 
     private Serializable getMinMax(JsonNode vital, String field) {
