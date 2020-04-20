@@ -22,26 +22,40 @@ import static org.nuxeo.ecm.core.bulk.BulkServiceImpl.STATUS_STREAM;
 import static org.nuxeo.lib.stream.computation.AbstractComputation.INPUT_1;
 import static org.nuxeo.lib.stream.computation.AbstractComputation.OUTPUT_1;
 
+import java.io.Serializable;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.nuxeo.ecm.core.api.CoreSession;
+import org.nuxeo.ecm.core.bulk.action.computation.AbstractBulkComputation;
 import org.nuxeo.lib.stream.computation.Topology;
 import org.nuxeo.runtime.stream.StreamProcessorTopology;
 
-public class MyActionProcessor implements StreamProcessorTopology {
+public class ImportFileProcessor implements StreamProcessorTopology {
 
-    private static final Log log = LogFactory.getLog(MyActionProcessor.class);
+    private static final Log log = LogFactory.getLog(ImportFileProcessor.class);
 
-    protected static final String ACTION_NAME = "myAction";
+    protected static final String ACTION_NAME = "importFile";
 
     @Override
     public Topology getTopology(Map<String, String> options) {
         return Topology.builder()
-                       .addComputation(MyComputation::new, Arrays.asList(INPUT_1 + ":" + ACTION_NAME, //
+                       .addComputation(ImportFileComputation::new, Arrays.asList(INPUT_1 + ":" + ACTION_NAME, //
                                OUTPUT_1 + ":" + STATUS_STREAM))
                        .build();
     }
 
+    private class ImportFileComputation extends AbstractBulkComputation {
+        public ImportFileComputation() {
+            super(ACTION_NAME);
+        }
+
+        @Override
+        protected void compute(CoreSession coreSession, List<String> list, Map<String, Serializable> map) {
+            log.warn("Receiving line: " + list);
+        }
+    }
 }

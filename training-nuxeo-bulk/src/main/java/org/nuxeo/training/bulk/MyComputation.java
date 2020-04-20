@@ -1,5 +1,7 @@
 package org.nuxeo.training.bulk;
 
+import static org.nuxeo.training.bulk.MyActionProcessor.ACTION_NAME;
+
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Collections;
@@ -18,8 +20,6 @@ import org.nuxeo.runtime.api.Framework;
 public class MyComputation extends AbstractBulkComputation {
 
     private static final Logger log = LogManager.getLogger(MyComputation.class);
-
-    protected static final String ACTION_NAME = "myAction";
 
     public MyComputation() {
         super(ACTION_NAME);

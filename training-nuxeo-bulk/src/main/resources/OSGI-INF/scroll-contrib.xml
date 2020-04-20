@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.training.bulk.scroll.contrib">
+  <require>org.nuxeo.ecm.core.scroll.contrib.default</require>
+  <extension point="scroll" target="org.nuxeo.ecm.core.scroll.service">
+    <scroll type="file" name="default" default="true" class="org.nuxeo.training.bulk.FileScroll" />
+  </extension>
+</component>
