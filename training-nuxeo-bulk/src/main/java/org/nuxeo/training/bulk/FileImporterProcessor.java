@@ -34,22 +34,22 @@ import org.nuxeo.ecm.core.bulk.action.computation.AbstractBulkComputation;
 import org.nuxeo.lib.stream.computation.Topology;
 import org.nuxeo.runtime.stream.StreamProcessorTopology;
 
-public class ImportFileProcessor implements StreamProcessorTopology {
+public class FileImporterProcessor implements StreamProcessorTopology {
 
-    private static final Log log = LogFactory.getLog(ImportFileProcessor.class);
+    private static final Log log = LogFactory.getLog(FileImporterProcessor.class);
 
-    protected static final String ACTION_NAME = "importFile";
+    protected static final String ACTION_NAME = "import/fileImporter";
 
     @Override
     public Topology getTopology(Map<String, String> options) {
         return Topology.builder()
-                       .addComputation(ImportFileComputation::new, Arrays.asList(INPUT_1 + ":" + ACTION_NAME, //
+                       .addComputation(FileImporterComputation::new, Arrays.asList(INPUT_1 + ":" + ACTION_NAME, //
                                OUTPUT_1 + ":" + STATUS_STREAM))
                        .build();
     }
 
-    private class ImportFileComputation extends AbstractBulkComputation {
-        public ImportFileComputation() {
+    private class FileImporterComputation extends AbstractBulkComputation {
+        public FileImporterComputation() {
             super(ACTION_NAME);
         }
 

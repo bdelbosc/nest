@@ -11,13 +11,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Serializable;
 import java.time.Duration;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Set;
 
 import javax.inject.Inject;
 
@@ -25,7 +21,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 import org.junit.runner.RunWith;
-import org.nuxeo.ecm.core.api.DocumentModel;
+import org.nuxeo.ecm.core.api.CoreSession;
 import org.nuxeo.ecm.core.api.scroll.Scroll;
 import org.nuxeo.ecm.core.api.scroll.ScrollRequest;
 import org.nuxeo.ecm.core.api.scroll.ScrollService;
@@ -36,7 +32,6 @@ import org.nuxeo.ecm.core.test.CoreFeature;
 import org.nuxeo.runtime.test.runner.Deploy;
 import org.nuxeo.runtime.test.runner.Features;
 import org.nuxeo.runtime.test.runner.FeaturesRunner;
-import org.nuxeo.runtime.transaction.TransactionHelper;
 
 @RunWith(FeaturesRunner.class)
 @Features(CoreFeature.class)
@@ -53,6 +48,9 @@ public class TestFileImporter {
 
     @Inject
     public BulkService bulkService;
+
+    @Inject
+    public CoreSession session;
 
     @Test
     public void testFileScroll() throws IOException {
@@ -94,25 +92,23 @@ public class TestFileImporter {
     }
 
     @Test
-    public void testImporterFileAction() throws InterruptedException {
+    public void testImporterFileAction() throws Exception {
         String nxql = "SELECT * from Document";
-        BulkCommand command = new BulkCommand.Builder("myAction", nxql, session.getPrincipal().getName()).param("fieldName",
-                "dc:subjects").repository(session.getRepositoryName()).build();
-        String commandId = bulkService.submit(
-                command);
+        int lines = 101;
+        String path = createFile(lines);
+        String user = session.getPrincipal().getName();
+        BulkCommand command = new BulkCommand.Builder("myAction", nxql, user).param("file", path)
+                                                                             .scroller("file")
+                                                                             .build();
+
+        String commandId = bulkService.submit(command);
         System.out.println(command);
-        assertTrue("Bulk action didn't finish", bulkService.await(Duration.ofSeconds(10)));
+        assertTrue("Bulk action didn't finish", bulkService.await(Duration.ofSeconds(20)));
 
         BulkStatus status = bulkService.getStatus(commandId);
         assertEquals(commandId, status.getId());
         assertEquals(COMPLETED, status.getState());
-        assertEquals(1, status.getTotal());
-        assertEquals(1, status.getProcessed());
-
-        // read invalidations
-        session.save();
-
-        Set<String> docTags = tagService.getTags(session, doc.getId());
-        assertEquals(new HashSet<>(tags), docTags);
+        assertEquals(lines, status.getTotal());
+        assertEquals(lines, status.getProcessed());
     }
 }

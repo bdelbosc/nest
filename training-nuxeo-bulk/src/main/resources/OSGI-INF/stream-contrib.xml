@@ -9,12 +9,12 @@
   </extension>
 
   <extension target="org.nuxeo.runtime.stream.service" point="streamProcessor">
-    <streamProcessor name="myAction" class="org.nuxeo.training.bulk.MyActionProcessor" logConfig="bulk"
+    <streamProcessor name="myAction" class="org.nuxeo.training.bulk.MyActionProcessor"
       defaultConcurrency="2" defaultPartitions="2">
       <policy name="default" maxRetries="3" delay="100ms" maxDelay="10s" continueOnFailure="true" />
     </streamProcessor>
 
-    <streamProcessor name="importFile" class="org.nuxeo.training.bulk.ImportFileProcessor" logConfig="bulk"
+    <streamProcessor name="fileImporter" class="org.nuxeo.training.bulk.FileImporterProcessor"
       defaultConcurrency="2" defaultPartitions="2">
     </streamProcessor>
   </extension>
