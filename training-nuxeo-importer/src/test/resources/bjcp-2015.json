@@ -7,6 +7,8 @@
       {
         "name": "American Light Lager",
         "id": "1A",
+        "origin": "United States",
+        "family": "Pale Lager",
         "family_history": "Mass Market Pale Lager",
         "overall_impression": "Highly carbonated, very light-bodied, nearly flavorless lager designed to be consumed very cold. Very refreshing and thirst quenching.",
         "aroma": "Low to no malt aroma, although it can be perceived as grainy, sweet, or corn-like if present. Hop aroma is light to none, with a spicy or floral hop character if present. While a clean fermentation character is desirable, a light amount of yeast character (particularly a light apple fruitiness) is not a fault. Light DMS is not a fault.",
@@ -61,6 +63,8 @@
       {
         "name": "American Lager",
         "id": "1B",
+        "origin": "United States",
+        "family": "Pale Lager",
         "family_history": "Mass Market Pale Lager",
         "overall_impression": "A very pale, highly-carbonated, light-bodied, well-attenuated lager with a very neutral flavor profile and low bitterness. Served very cold, it can be a very refreshing and thirst quenching drink.",
         "aroma": "Low to no malt aroma, although it can be perceived as grainy, sweet or corn-like if present. Hop aroma may range from none to a light, spicy or floral hop presence. While a clean fermentation character is desirable, a light amount of yeast character (particularly a light apple character) is not a fault. Light DMS is also not a fault.",
@@ -115,6 +119,8 @@
       {
         "name": "Cream Ale",
         "id": "1C",
+        "origin": "United States",
+        "family": "Pale Ale",
         "family_history": "Indigenous American Beer",
         "overall_impression": "A clean, well-attenuated, flavorful American “lawnmower” beer. Easily drinkable and refreshing, with more character than typical American lagers.",
         "aroma": "Medium-low to low malt notes, with a sweet, corn-like aroma. Low levels of DMS are allowable, but are not required. Hop aroma medium low to none, and can be of any variety although floral, spicy, or herbal notes are most common. Overall, a subtle aroma with neither hops nor malt dominating. Low fruity esters are optional.",
@@ -168,6 +174,8 @@
       {
         "name": "American Wheat Beer",
         "id": "1D",
+        "origin": "United States",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "Refreshing wheat beers that can display more hop character and less yeast character than their German cousins. A clean fermentation character allows bready, doughy, or grainy wheat flavors to be complemented by hop flavor and bitterness rather than yeast qualities.",
         "aroma": "Low to moderate grainy, bready, or doughy wheat character. A light to moderate malty sweetness is acceptable. Esters can be moderate to none, although should reflect relatively neutral yeast strains; banana is inappropriate. Hop aroma may be low to moderate, and can have a citrusy, spicy, floral, or fruity character. No clove phenols.",
@@ -226,6 +234,8 @@
       {
         "name": "International Pale Lager",
         "id": "2A",
+        "origin": "International",
+        "family": "Pale Lager",
         "family_history": "Mass Market Pale Lager",
         "overall_impression": "A highly-attenuated pale lager without strong flavors, typically well-balanced and highly carbonated. Served cold, it is refreshing and thirst-quenching.",
         "aroma": "Low to medium-low malt aroma, which can be grainy-malty or slightly corny-sweet. Hop aroma may range from very low to a medium, spicy or floral hop presence. While a clean fermentation profile is generally most desirable, low levels of yeast character (such as a light apple fruitiness) are not a fault. A light amount of DMS or corn aroma is not a fault.",
@@ -281,6 +291,8 @@
       {
         "name": "International Amber Lager",
         "id": "2B",
+        "origin": "International",
+        "family": "Amber Lager",
         "family_history": "Amber Lager",
         "overall_impression": "A well-attenuated malty amber lager with an interesting caramel or toast quality and restrained bitterness. Usually fairly well-attenuated, often with an adjunct quality. Smooth, easily-drinkable lager character.",
         "aroma": "Low to moderate malt aroma which can be grainy, with a very low to moderate caramel-sweet to toasty-malty aroma. Hop aroma can range from low to none with a mildly floral or spicy character. Clean lager profile. A slight DMS or corny aroma is acceptable.",
@@ -333,6 +345,8 @@
       {
         "name": "International Dark Lager",
         "id": "2C",
+        "origin": "International",
+        "family": "Dark Lager",
         "family_history": "Dark Lager",
         "overall_impression": "A darker and somewhat sweeter version of international pale lager with a little more body and flavor, but equally restrained in bitterness. The low bitterness leaves the malt as the primary flavor element, and the low hop levels provide very little in the way of balance.",
         "aroma": "Little to no malt aroma; may have a light corn character. Medium-low to no roast and caramel malt aroma. Hop aroma may range from none to light spicy or floral hop presence. While a clean fermentation profile is generally most desirable, low levels of yeast character (such as a light apple fruitiness) are not a fault. A light amount of DMS or corn aroma is not a fault.",
@@ -394,6 +408,8 @@
       {
         "name": "Czech Pale Lager",
         "id": "3A",
+        "origin": "Czech Republic",
+        "family": "Pale Lager",
         "family_history": "Pilsner",
         "overall_impression": "A lighter-bodied, rich, refreshing, hoppy, bitter pale Czech lager having the familiar flavors of the stronger Czech Premium Pale Lager (Pilsner-type) beer but in a lower alcohol, lighter-bodied, and slightly less intense format.",
         "aroma": "Light to moderate bready-rich malt combined with light to moderate spicy or herbal hop bouquet; the balance between the malt and hops may vary. Faint hint of caramel is acceptable. Light (but never intrusive) diacetyl and light, fruity hop-derived esters are acceptable, but need not be present. No sulfur.",
@@ -447,6 +463,8 @@
       {
         "name": "Czech Premium Pale Lager",
         "id": "3B",
+        "origin": "Czech Republic",
+        "family": "Pilsner",
         "family_history": "Pilsner",
         "overall_impression": "Rich, characterful, pale Czech lager, with considerable malt and hop character and a long, rounded finish. Complex yet well-balanced and refreshing. The malt flavors are complex for a Pilsner-type beer, and the bitterness is strong but clean and without harshness, which gives a rounded impression that enhances drinkability.",
         "aroma": "Medium to medium-high bready-rich malt and medium-low to medium-high spicy, floral, or herbal hop bouquet; though the balance between the malt and hops may vary, the interplay is rich and complex. Light diacetyl, or very low fruity hop-derived esters are acceptable, but need not be present.",
@@ -503,6 +521,8 @@
       {
         "name": "Czech Amber Lager",
         "id": "3C",
+        "origin": "Czech Republic",
+        "family": "Amber Lager",
         "family_history": "Amber Lager",
         "overall_impression": "Malt-driven amber Czech lager with hop character that can vary from low to quite significant. The malt flavors can vary quite a bit, leading to different interpretations ranging from drier, bready, and slightly biscuity to sweeter and somewhat caramelly.",
         "aroma": "Moderate intensity, rich malt aroma that can be either bready and Maillard product-dominant or slightly caramelly and candy-like. Spicy, floral or herbal hop character may be moderate to none. Clean lager character, though low fruity esters (stone fruit or berries) may be present. Diacetyl is optional and can range from low to none.",
@@ -555,6 +575,8 @@
       {
         "name": "Czech Dark Lager",
         "id": "3D",
+        "origin": "Czech Republic",
+        "family": "Dark Lager",
         "family_history": "Dark Lager",
         "overall_impression": "A rich, dark, malty Czech lager with a roast character that can vary from almost absent to quite prominent. Malty with an interesting and complex flavor profile, with variable levels of hopping providing a range of possible interpretations.",
         "aroma": "Medium to medium-high rich, deep, sometimes sweet maltiness, with optional qualities such as bread crusts, toast, nuts, cola, dark fruit, or caramel. Roasted malt characters such as chocolate or sweetened coffee can vary from moderate to none but should not overwhelm the base malt character. Low, spicy hop aroma is optional. Low diacetyl and low fruity esters (plums or berries) may be present.",
@@ -617,6 +639,8 @@
       {
         "name": "Munich Helles",
         "id": "4A",
+        "origin": "Germany",
+        "family": "Pale Lager",
         "family_history": "European Pale Lager",
         "overall_impression": "A clean, malty, gold-colored German lager with a smooth grainy-sweet malty flavor and a soft, dry finish. Subtle spicy, floral, or herbal hops and restrained bitterness help keep the balance malty but not sweet, which helps make this beer a refreshing, everyday drink.",
         "aroma": "Moderate grainy-sweet malt aroma. Low to moderately-low spicy, floral, or herbal hop aroma. While a clean aroma is most desirable, a very low background note of DMS is not a fault. Pleasant, clean fermentation profile, with malt dominating the balance. The freshest examples will have more of a malty-sweet aroma.",
@@ -672,6 +696,8 @@
       {
         "name": "Festbier",
         "id": "4B",
+        "origin": "Germany",
+        "family": "Pale Lager",
         "family_history": "European Pale Lager",
         "overall_impression": "A smooth, clean, pale German lager with a moderately strong malty flavor and a light hop character. Deftly balances strength and drinkability, with a palate impression and finish that encourages drinking. Showcases elegant German malt flavors without becoming too heavy or filling.",
         "aroma": "Moderate malty richness, with an emphasis on toasty-doughy aromatics and an impression of sweetness. Low to medium-low floral, herbal, or spicy hops. The malt should not have a deeply toasted, caramel, or biscuity quality. Clean lager fermentation character.",
@@ -727,6 +753,8 @@
       {
         "name": "Helles Bock",
         "id": "4C",
+        "origin": "Germany",
+        "family": "Bock",
         "family_history": "European Pale Lager",
         "overall_impression": "A relatively pale, strong, malty German lager beer with a nicely attenuated finish that enhances drinkability. The hop character is generally more apparent than in other bocks.",
         "aroma": "Moderate to strong grainy-sweet malt aroma, often with a lightly toasted quality and low Maillard products. Moderately-low to no hop aroma, often with a spicy, herbal, or floral quality. Clean fermentation profile. Fruity esters should be low to none. Very light alcohol may be noticeable. May have a light DMS aroma.",
@@ -789,6 +817,8 @@
       {
         "name": "German Leichtbier",
         "id": "5A",
+        "origin": "Germany",
+        "family": "Pale Lager",
         "overall_impression": "A pale, highly-attenuated, light-bodied German lager with lower alcohol and calories than normal-strength beers. Moderately bitter with noticeable malt and hop flavors, the beer is still interesting to drink.",
         "aroma": "Low to medium hop aroma, with a spicy, herbal, or floral character. Low to medium-low grainy-sweet or slightly crackery malt aroma. Clean fermentation profile.",
         "appearance": "Straw to pale gold in color. Brilliant clarity. Moderate white head with average to below average persistence.",
@@ -842,6 +872,8 @@
       {
         "name": "Kölsch",
         "id": "5B",
+        "origin": "Germany",
+        "family": "Pale Ale",
         "family_history": "Top-Fermented German Lagers",
         "overall_impression": "A clean, crisp, delicately-balanced beer usually with a very subtle fruit and hop character. Subdued maltiness throughout leads into a pleasantly well-attenuated and refreshing finish. Freshness makes a huge difference with this beer, as the delicate character can fade quickly with age. Brilliant clarity is characteristic.",
         "aroma": "Low to very low malt aroma, with a grainy-sweet character. A pleasant, subtle fruit aroma from fermentation (apple, cherry or pear) is acceptable, but not always present. A low floral, spicy or herbal hop aroma is optional but not out of style. Some yeast strains may give a slight winy or sulfury character (this characteristic is also optional, but not a fault). Overall, the intensity of aromatics is fairly subtle but generally balanced, clean, and fresh.",
@@ -896,6 +928,8 @@
       {
         "name": "German Helles Exportbier",
         "id": "5C",
+        "origin": "Germany",
+        "family": "Pale Lager",
         "family_history": "European Pale Lager",
         "overall_impression": "A pale, well-balanced, smooth German lager that is slightly stronger than the average beer with a moderate body and a mild, aromatic hop and malt character.",
         "aroma": "Low to medium hop aroma, typically floral, spicy, or herbal in character. Moderate grainy-sweet malt aroma. Clean fermentation profile. A slight sulfury note at the start that dissipates is not a fault, neither is a low background note of DMS.",
@@ -950,6 +984,8 @@
       {
         "name": "German Pils",
         "id": "5D",
+        "origin": "Germany",
+        "family": "Pilsner",
         "family_history": "Pilsner",
         "overall_impression": "A light-bodied, highly-attenuated, gold-colored, bottom-fermented bitter German beer showing excellent head retention and an elegant, floral hop aroma. Crisp, clean, and refreshing, a German Pils showcases the finest quality German malt and hops.",
         "aroma": "Medium-low to low grainy-sweet-rich malt character (often with a light honey and slightly toasted cracker quality) and distinctive flowery, spicy, or herbal hops. Clean fermentation profile. May optionally have a very light sulfury note that comes from water as much as yeast. The hops are moderately-low to moderately-high, but should not totally dominate the malt presence. One-dimensional examples are inferior to the more complex qualities when all ingredients are sensed. May have a very low background note of DMS.",
@@ -1013,6 +1049,8 @@
       {
         "name": "Märzen",
         "id": "6A",
+        "origin": "Germany",
+        "family": "Amber Lager",
         "family_history": "Amber Lager",
         "overall_impression": "An elegant, malty German amber lager with a clean, rich, toasty and bready malt flavor, restrained bitterness, and a dry finish that encourages another drink. The overall malt impression is soft, elegant, and complex, with a rich aftertaste that is never cloying or heavy.",
         "aroma": "Moderate intensity aroma of German malt, typically rich, bready, somewhat toasty, with light bread crust notes. Clean lager fermentation character. No hop aroma. Caramel, dry-biscuity, or roasted malt aromas inappropriate. Very light alcohol might be detected, but should never be sharp. Clean, elegant malt richness should be the primary aroma.",
@@ -1065,6 +1103,8 @@
       {
         "name": "Rauchbier",
         "id": "6B",
+        "origin": "Germany",
+        "family": "Amber Lager",
         "family_history": "European Smoked Beer",
         "overall_impression": "An elegant, malty German amber lager with a balanced, complementary beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high smoke flavor, clean fermentation profile, and an attenuated finish are characteristic.",
         "aroma": "Blend of smoke and malt, with a varying balance and intensity. The beechwood smoke character can range from subtle to fairly strong, and can seem smoky, woody, or bacon-like. The malt character can be low to moderate, and be somewhat rich, toasty, or malty-sweet. The malt and smoke components are often inversely proportional (i.e., when smoke increases, malt decreases, and vice versa). Hop aroma may be very low to none. Clean lager fermentation character.",
@@ -1118,6 +1158,8 @@
       {
         "name": "Dunkles Bock",
         "id": "6C",
+        "origin": "Germany",
+        "family": "Bock",
         "family_history": "Bock",
         "overall_impression": "A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.",
         "aroma": "Medium to medium-high bready-malty-rich aroma, often with moderate amounts of rich Maillard products and/or toasty overtones. Virtually no hop aroma. Some alcohol may be noticeable. Clean lager character, although the malts can provide a slight (low to none) dark fruit character, particularly in aged examples.",
@@ -1179,6 +1221,8 @@
       {
         "name": "Vienna Lager",
         "id": "7A",
+        "origin": "Austria",
+        "family": "Amber Lager",
         "family_history": "Amber Lager",
         "overall_impression": "A moderate-strength amber lager with a soft, smooth maltiness and moderate bitterness, yet finishing relatively dry. The malt flavor is clean, bready-rich, and somewhat toasty, with an elegant impression derived from quality base malts and process, not specialty malts and adjuncts.",
         "aroma": "Moderately-intense malt aroma, with toasty and malty-rich aromatics. Clean lager character. Floral, spicy hop aroma may be low to none. A significant caramel or roasted aroma is inappropriate.",
@@ -1233,6 +1277,8 @@
       {
         "name": "Altbier",
         "id": "7B",
+        "origin": "Germany",
+        "family": "Amber Ale",
         "family_history": "Top-Fermented German Lagers",
         "overall_impression": "A well-balanced, well-attenuated, bitter yet malty, clean, and smooth, amber- to copper-colored German beer. The bitterness is balanced by the malt richness, but the malt intensity and character can range from moderate to high (the bitterness increases with the malt richness).",
         "aroma": "Clean yet robust and complex aroma of grainy-rich malt and spicy hops with restrained (low to medium-low) fruity esters. The malt character reflects German base malt varieties, with rich baked bread and nutty-toasty bread crust notes. The hop aroma may vary from moderate to low, and can have a peppery, spicy, floral, herbal or perfumy character associated with Saazer-type hops.",
@@ -1299,6 +1345,8 @@
           {
             "name": "Pale Kellerbier",
             "id": "7C1",
+            "origin": "Germany",
+            "family": "Pale Lager",
             "family_history": "Pilsner",
             "notes": "A very common seasonal summer beer brewed by many of the Munich area breweries and served in the beer gardens, where they are very popular.",
             "overall_impression": "A young, fresh Helles, so while still a malty, fully-attenuated Pils malt showcase, the hop character (aroma, flavor and bitterness) is more pronounced, and the beer is cloudy, often with some level of diacetyl, and possibly has some green apple and/or other yeast-derived notes. As with the traditional Helles, the Keller version is still a beer intended to be drunk by the liter, so overall it should remain a light, refreshing, easy drinking golden lager.",
@@ -1354,6 +1402,8 @@
           {
             "name": "Amber Kellerbier",
             "id": "7C2",
+            "origin": "Germany",
+            "family": "Amber Lager",
             "family_history": "Amber Lager",
             "notes": "The original style of Kellerbier from the Franconia area of Germany. A much older style compared to the relatively more recent pale Helles-Style Kellerbier that is popular in the Munich area today.",
             "overall_impression": "A young, unfiltered, and unpasteurized beer that is between a Helles and Märzen in color, spicier in the hops with greater attenuation. Interpretations range in color and balance, but remain in the drinkable 4.8% ABV neighborhood. Balance ranges from the dry, spicy and pale-colored interpretations by St. Georgen and Löwenbräu of Buttenheim, to darker and maltier interpretations in the Fränkische Schweiz. This style is above all a method of producing simple drinkable beers for neighbors out of local ingredients to be served fresh. Balance with a focus on drinkability and digestibility is important.",
@@ -1421,6 +1471,8 @@
       {
         "name": "Munich Dunkel",
         "id": "8A",
+        "origin": "Germany",
+        "family": "Dark Lager",
         "family_history": "Dark Lager",
         "overall_impression": "Characterized by depth, richness and complexity typical of darker Munich malts with the accompanying Maillard products. Deeply bready-toasty, often with chocolate-like flavors in the freshest examples, but never harsh, roasty, or astringent; a decidedly malt-balanced beer, yet still easily drinkable.",
         "aroma": "Rich, elegant, deep malt sweetness, typically like bread crusts (often toasted bread crusts). Hints of chocolate, nuts, caramel, and/or toffee are also acceptable, with fresh traditional versions often showing higher levels of chocolate. Clean fermentation profile. A slight spicy, floral, or herbal hop aroma is acceptable.",
@@ -1474,6 +1526,8 @@
       {
         "name": "Schwarzbier",
         "id": "8B",
+        "origin": "Germany",
+        "family": "Dark Lager",
         "family_history": "Dark Lager",
         "overall_impression": "A dark German lager that balances roasted yet smooth malt flavors with moderate hop bitterness. The lighter body, dryness, and lack of a harsh, burnt, or heavy aftertaste helps make this beer quite drinkable.",
         "aroma": "Low to moderate malt, with low aromatic malty sweetness and/or hints of roast malt often apparent. The malt can be clean and neutral or moderately rich and bready, and may have a hint of dark caramel. The roast character can be somewhat dark chocolate- or coffee-like but should never be burnt. A low spicy, floral, or herbal hop aroma is optional. Clean lager yeast character, although a light sulfur is possible.",
@@ -1535,6 +1589,8 @@
       {
         "name": "Doppelbock",
         "id": "9A",
+        "origin": "Germany",
+        "family": "Bock",
         "family_history": "Bock",
         "overall_impression": "A strong, rich, and very malty German lager that can have both pale and dark variants. The darker versions have more richly-developed, deeper malt flavors, while the paler versions have slightly more hops and dryness.",
         "aroma": "Very strong maltiness. Darker versions will have significant Maillard products and often some toasty aromas. A light caramel aroma is acceptable. Lighter versions will have a strong malt presence with some Maillard products and toasty notes. Virtually no hop aroma, although a light noble hop aroma is acceptable in pale versions. A moderately low malt-derived dark fruit character may be present (but is optional) in dark versions. A very slight chocolate-like aroma may be present in darker versions, but no roasted or burned aromatics should ever be present. Moderate alcohol aroma may be present.",
@@ -1594,6 +1650,8 @@
       {
         "name": "Eisbock",
         "id": "9B",
+        "origin": "Germany",
+        "family": "Bock",
         "family_history": "Bock",
         "overall_impression": "A strong, full-bodied, rich, and malty dark German lager often with a viscous quality and strong flavors. Even though flavors are concentrated, the alcohol should be smooth and warming, not burning.",
         "aroma": "Dominated by a balance of rich, intense malt and a definite alcohol presence. No hop aroma. May have significant malt-derived dark fruit esters. Alcohol aromas should not be harsh or solventy.",
@@ -1643,6 +1701,8 @@
       {
         "name": "Baltic Porter",
         "id": "9C",
+        "origin": "Scandinavia",
+        "family": "Porter",
         "family_history": "Porter",
         "overall_impression": "A Baltic Porter often has the malt flavors reminiscent of an English porter and the restrained roast of a schwarzbier, but with a higher OG and alcohol content than either. Very complex, with multi-layered malt and dark fruit flavors.",
         "aroma": "Rich malty sweetness often containing caramel, toffee, nutty to deep toast, and/or licorice notes. Complex alcohol and ester profile of moderate strength, and reminiscent of plums, prunes, raisins, cherries or currants, occasionally with a vinous Port-like quality. Some darker malt character that is deep chocolate, coffee or molasses but never burnt. No hops. No sourness. Very smooth.",
@@ -1704,6 +1764,8 @@
       {
         "name": "Weissbier",
         "id": "10A",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character.",
         "aroma": "Moderate to strong phenols (usually clove) and fruity esters (typically banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. The hop character ranges from low to none. A light to moderate wheat aroma (which might be perceived as bready or grainy) may be present but other malt characteristics should not. Optional, but acceptable, aromatics can include a light to moderate vanilla character, and/or a faint bubblegum aroma. None of these optional characteristics should be high or dominant, but often can add to the complexity and balance.",
@@ -1755,6 +1817,8 @@
       {
         "name": "Dunkles Weissbier",
         "id": "10B",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "A moderately dark German wheat beer with a distinctive banana-and-clove yeast character, supported by a toasted bread or caramel malt flavor. Highly carbonated and refreshing, with a creamy, fluffy texture and light finish that encourages drinking.",
         "aroma": "Moderate phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced. Optionally, a low to moderate vanilla character and/or faint bubblegum notes may be present, but should not dominate. Hop aroma ranges from low to none, and may be lightly floral, spicy, or herbal. A light to moderate wheat aroma (which might be perceived as bready, doughy or grainy) may be present and is often accompanied by a caramel, bread crust, or richer malt aroma. The malt aroma may moderate the phenols and esters somewhat.",
@@ -1808,6 +1872,8 @@
       {
         "name": "Weizenbock",
         "id": "10C",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "A strong, malty, fruity, wheat-based ale combining the best malt and yeast flavors of a weissbier (pale or dark) with the malty-rich flavor, strength, and body of a Dunkles Bock or Doppelbock.",
         "aroma": "Medium-high to high malty-rich character with a significant bready-grainy wheat component. Paler versions will have a bready-toasty malty richness, while darker versions will have a deeper, richer malt presence with significant Maillard products. The malt component is similar to a helles bock for pale versions (grainy-sweet-rich, lightly toasted) or a dunkles bock for dark versions (bready-malty-rich, highly toasted, optional caramel). The yeast contributes a typical weizen character of banana and spice (clove, vanilla), which can be medium-low to medium-high. Darker versions can have some dark fruit aroma (plums, prunes, grapes, raisins), particularly as they age. A low to moderate alcohol aroma is acceptable, but shouldn't be hot or solventy. No hop aroma. The malt, yeast, and alcohol intertwine to produce a complex, inviting, prominent bouquet.",
@@ -1870,6 +1936,8 @@
       {
         "name": "Ordinary Bitter",
         "id": "11A",
+        "origin": "England",
+        "family": "Amber Ale",
         "family_history": "English Pale Ale",
         "overall_impression": "Low gravity, low alcohol levels, and low carbonation make this an easy-drinking session beer. The malt profile can vary in flavor and intensity, but should never override the overall bitter impression. Drinkability is a critical component of the style",
         "aroma": "Low to moderate malt aroma, often (but not always) with a light caramel quality. Bready, biscuity, or lightly toasty malt complexity is common. Mild to moderate fruitiness. Hop aroma can range from moderate to none, typically with a floral, earthy, resiny, and/or fruity character. Generally no diacetyl, although very low levels are allowed.",
@@ -1923,6 +1991,8 @@
       {
         "name": "Best Bitter",
         "id": "11B",
+        "origin": "England",
+        "family": "Amber Ale",
         "family_history": "English Pale Ale",
         "overall_impression": "A flavorful, yet refreshing, session beer. Some examples can be more malt balanced, but this should not override the overall bitter impression. Drinkability is a critical component of the style.",
         "aroma": "Low to moderate malt aroma, often (but not always) with a low to medium-low caramel quality. Bready, biscuit, or lightly toasty malt complexity is common. Mild to moderate fruitiness. Hop aroma can range from moderate to none, typically with a floral, earthy, resiny, and/or fruity character. Generally no diacetyl, although very low levels are allowed.",
@@ -1977,6 +2047,8 @@
       {
         "name": "Strong Bitter",
         "id": "11C",
+        "origin": "England",
+        "family": "Amber Ale",
         "family_history": "English Pale Ale",
         "overall_impression": "An average-strength to moderately-strong British bitter ale. The balance may be fairly even between malt and hops to somewhat bitter. Drinkability is a critical component of the style. A rather broad style that allows for considerable interpretation by the brewer.",
         "aroma": "Hop aroma moderately-high to moderately-low, typically with a floral, earthy, resiny, and/or fruity character. Medium to medium-high malt aroma, optionally with a low to moderate caramel component. Medium-low to medium-high fruity esters. Generally no diacetyl, although very low levels are allowed.",
@@ -2039,6 +2111,8 @@
       {
         "name": "British Golden Ale",
         "id": "12A",
+        "origin": "England",
+        "family": "Pale Ale",
         "family_history": "Pale Ales",
         "overall_impression": "A hop-forward, average-strength to moderately-strong pale bitter. Drinkability and a refreshing quality are critical components of the style.",
         "aroma": "Hop aroma is moderately low to moderately high, and can use any variety of hops – floral, herbal, or earthy English hops and citrusy American hops are most common. Frequently a single hop varietal will be showcased. Little to no malt aroma; no caramel. Medium-low to low fruity aroma from the hops rather than esters. Little to no diacetyl.",
@@ -2094,6 +2168,8 @@
       {
         "name": "Australian Sparkling Ale",
         "id": "12B",
+        "origin": "Australia",
+        "family": "Pale Ale",
         "family_history": "Pale Ales",
         "overall_impression": "Smooth and balanced, all components merge together with similar intensities. Moderate flavors showcasing Australian ingredients. Large flavor dimension. Very drinkable, suited to a hot climate. Relies on yeast character.",
         "aroma": "Fairly soft, clean aroma with a balanced mix of esters, hops, malt, and yeast – all moderate to low in intensity. The esters are frequently pears and apples, possibly with a very light touch of banana (optional). The hops are earthy, herbaceous, or might show the characteristic iron-like Pride of Ringwood nose. The malt can range from neutral grainy to moderately sweet to lightly bready; no caramel should be evident. Very fresh examples can have a lightly yeasty, sulfury nose.",
@@ -2143,6 +2219,8 @@
       {
         "name": "English IPA",
         "id": "12C",
+        "origin": "England",
+        "family": "IPA",
         "family_history": "English Pale Ale",
         "overall_impression": "A hoppy, moderately-strong, very well-attenuated pale British ale with a dry finish and a hoppy aroma and flavor. Classic British ingredients provide the best flavor profile.",
         "aroma": "A moderate to moderately-high hop aroma of floral, spicy-peppery or citrus-orange in nature is typical. A slightly grassy dry-hop aroma is acceptable, but not required. A moderately-low caramel-like or toasty malt presence is optional. Low to moderate fruitiness is acceptable. Some versions may have a sulfury note, although this character is not mandatory.",
@@ -2205,6 +2283,8 @@
       {
         "name": "Dark Mild",
         "id": "13A",
+        "origin": "England",
+        "family": "Brown Ale",
         "family_history": "English Mild",
         "overall_impression": "A dark, low-gravity, malt-focused British session ale readily suited to drinking in quantity. Refreshing, yet flavorful, with a wide range of dark malt or dark sugar expression.",
         "aroma": "Low to moderate malt aroma, and may have some fruitiness. The malt expression can take on a wide range of character, which can include caramel, toffee, grainy, toasted, nutty, chocolate, or lightly roasted. Little to no hop aroma, earthy or floral if present. Very low to no diacetyl.",
@@ -2259,6 +2339,8 @@
       {
         "name": "British Brown Ale",
         "id": "13B",
+        "origin": "England",
+        "family": "Brown Ale",
         "overall_impression": "A malty, brown caramel-centric British ale without the roasted flavors of a Porter.",
         "aroma": "Light, sweet malt aroma with toffee, nutty, or light chocolate notes, and a light to heavy caramel quality. A light but appealing floral or earthy hop aroma may also be noticed. A light fruity aroma may be evident, but should not dominate.",
         "appearance": "Dark amber to dark reddish-brown color. Clear. Low to moderate off-white to light tan head.",
@@ -2310,6 +2392,8 @@
       {
         "name": "English Porter",
         "id": "13C",
+        "origin": "England",
+        "family": "Porter",
         "family_history": "Porter",
         "overall_impression": "A moderate-strength brown beer with a restrained roasty character and bitterness. May have a range of roasted flavors, generally without burnt qualities, and often has a chocolate-caramel-malty profile.",
         "aroma": "Moderate to moderately low bready, biscuity, and toasty malt aroma with mild roastiness, and may have a chocolate quality. May also show some non-roasted malt character in support (caramelly, nutty, toffee-like and/or sweet). May have up to a moderate level of floral or earthy hops. Fruity esters moderate to none. Diacetyl low to none.",
@@ -2370,6 +2454,8 @@
       {
         "name": "Scottish Light",
         "id": "14A",
+        "origin": "Scotland",
+        "family": "Amber Ale",
         "overall_impression": "A malt-focused, generally caramelly beer with perhaps a few esters and occasionally a butterscotch aftertaste. Hops only to balance and support the malt. The malt character can range from dry and grainy to rich, toasty, and caramelly, but is never roasty and especially never has a peat smoke character. Traditionally the darkest of the Scottish ales, sometimes nearly black but lacking any burnt, overtly roasted character.",
         "aroma": "Low to medium maltiness, often with flavors of toasted breadcrumbs, lady fingers, and English biscuits. Low to medium caramel and low butterscotch is allowable. Light pome fruitiness in best examples. May have low traditional English hop aroma (earthy, floral, orange-citrus, spicy, etc.). Peat smoke is inappropriate.",
         "appearance": "Pale copper to very dark brown. Clear. Low to moderate, creamy off-white.",
@@ -2416,6 +2502,8 @@
       {
         "name": "Scottish Heavy",
         "id": "14B",
+        "origin": "Scotland",
+        "family": "Amber Ale",
         "overall_impression": "A malt-focused, generally caramelly beer with perhaps a few esters and occasionally a butterscotch aftertaste. Hops only to balance and support the malt. The malt character can range from dry and grainy to rich, toasty, and caramelly, but is never roasty and especially never has a peat smoke character.",
         "aroma": "Low to medium maltiness, often with flavors of toasted breadcrumbs, lady fingers, and English biscuits. Low to medium caramel and low butterscotch is allowable. Light pome fruitiness in best examples. May have low traditional English hop aroma (earthy, floral, orange-citrus, spicy, etc.). Peat smoke is inappropriate.",
         "appearance": "Pale copper to very dark brown. Clear. Low to moderate, creamy off-white.",
@@ -2466,6 +2554,8 @@
       {
         "name": "Scottish Export",
         "id": "14C",
+        "origin": "Scotland",
+        "family": "Amber Ale",
         "overall_impression": "A malt-focused, generally caramelly beer with perhaps a few esters and occasionally a butterscotch aftertaste. Hops only to balance and support the malt. The malt character can range from dry and grainy to rich, toasty, and caramelly, but is never roasty and especially never has a peat smoke character.",
         "aroma": "Low to medium maltiness, often with flavors of toasted breadcrumbs, lady fingers, and English biscuits. Low to medium caramel and low butterscotch is allowable. Light pome fruitiness in best examples. May have low traditional English hop aroma (earthy, floral, orange-citrus, spicy, etc.). Peat smoke is inappropriate.",
         "appearance": "Pale copper to very dark brown. Clear. Low to moderate, creamy off-white.",
@@ -2523,6 +2613,8 @@
       {
         "name": "Irish Red Ale",
         "id": "15A",
+        "origin": "Ireland",
+        "family": "Amber Ale",
         "family_history": "Pale Ales",
         "overall_impression": "An easy-drinking pint, often with subtle flavors. Slightly malty in the balance sometimes with an initial soft toffee/caramel sweetness, a slightly grainy-biscuity palate, and a touch of roasted dryness in the finish. Some versions can emphasize the caramel and sweetness more, while others will favor the grainy palate and roasted dryness.",
         "aroma": "Low to moderate malt aroma, either neutral-grainy or with a lightly caramelly-toasty-toffee character. May have a very light buttery character (although this is not required). Hop aroma is low earthy or floral to none (usually not present). Quite clean.",
@@ -2577,6 +2669,8 @@
       {
         "name": "Irish Stout",
         "id": "15B",
+        "origin": "Ireland",
+        "family": "Stout",
         "family_history": "Irish Stout",
         "overall_impression": "A black beer with a pronounced roasted flavor, often similar to coffee. The balance can range from fairly even to quite bitter, with the more balanced versions having a little malty sweetness and the bitter versions being quite dry. Draught versions typically are creamy from a nitro pour, but bottled versions will not have this dispense-derived character. The roasted flavor can be dry and coffee-like to somewhat chocolaty.",
         "aroma": "Moderate coffee-like aroma typically dominates; may have slight dark chocolate, cocoa and/or roasted grain secondary notes. Esters medium-low to none. Hop aroma low to none, may be lightly earthy or floral, but is typically absent.",
@@ -2631,6 +2725,8 @@
       {
         "name": "Irish Extra Stout",
         "id": "15C",
+        "origin": "Ireland",
+        "family": "Stout",
         "family_history": "Irish Stout",
         "overall_impression": "A fuller-bodied black beer with a pronounced roasted flavor, often similar to coffee and dark chocolate with some malty complexity. The balance can range from moderately bittersweet to bitter, with the more balanced versions having up to moderate malty richness and the bitter versions being quite dry.",
         "aroma": "Moderate to moderately high coffee-like aroma, often with slight dark chocolate, cocoa, biscuit, vanilla and/or roasted grain secondary notes. Esters medium-low to none. Hop aroma low to none, may be lightly earthy or spicy, but is typically absent. Malt and roast dominate the aroma.",
@@ -2689,6 +2785,8 @@
       {
         "name": "Sweet Stout",
         "id": "16A",
+        "origin": "England",
+        "family": "Stout",
         "family_history": "English Stout",
         "overall_impression": "A very dark, sweet, full-bodied, slightly roasty ale that can suggest coffee-and-cream, or sweetened espresso.",
         "aroma": "Mild roasted grain aroma, sometimes with coffee and/or chocolate notes. An impression of cream-like sweetness often exists. Fruitiness can be low to moderately high. Diacetyl low to none. Hop aroma low to none, with floral or earthy notes.",
@@ -2744,6 +2842,8 @@
       {
         "name": "Oatmeal Stout",
         "id": "16B",
+        "origin": "England",
+        "family": "Stout",
         "family_history": "English Stout",
         "overall_impression": "A very dark, full-bodied, roasty, malty ale with a complementary oatmeal flavor. The sweetness, balance, and oatmeal impression can vary considerably.",
         "aroma": "Mild roasted grain aromas, generally with a coffee-like character. A light malty sweetness can suggest a coffee-and-cream impression. Fruitiness should be low to medium-high. Diacetyl medium-low to none. Hop aroma medium-low to none, earthy or floral. A light grainy-nutty oatmeal aroma is optional.",
@@ -2798,6 +2898,8 @@
       {
         "name": "Tropical Stout",
         "id": "16C",
+        "origin": "England",
+        "family": "Stout",
         "family_history": "English Stout",
         "overall_impression": "A very dark, sweet, fruity, moderately strong ale with smooth roasty flavors without a burnt harshness.",
         "aroma": "Sweetness evident, moderate to high intensity. Roasted grain aromas moderate to high, and can have coffee or chocolate notes. Fruitiness medium to high. May have a molasses, licorice, dried fruit, and/or vinous aromatics. Stronger versions can have a subtle clean aroma of alcohol. Hop aroma low to none. Diacetyl low to none.",
@@ -2852,6 +2954,8 @@
       {
         "name": "Foreign Extra Stout",
         "id": "16D",
+        "origin": "England",
+        "family": "Stout",
         "family_history": "Irish Stout",
         "overall_impression": "A very dark, moderately strong, fairly dry, stout with prominent roast flavors.",
         "aroma": "Moderate to high roasted grain aromas, often with coffee, chocolate and/or lightly burnt notes. Low to medium fruitiness. May have a sweet aroma, or molasses, licorice, dried fruit, and/or vinous aromatics. Stronger versions can have a subtle, clean aroma of alcohol. Hop aroma moderately low to none, can be earthy, herbal or floral. Diacetyl low to none.",
@@ -2912,6 +3016,8 @@
       {
         "name": "British Strong Ale",
         "id": "17A",
+        "origin": "England",
+        "family": "Strong Ale",
         "family_history": "Strong Ale",
         "overall_impression": "An ale of respectable alcoholic strength, traditionally bottled-conditioned and cellared. Can have a wide range of interpretations, but most will have varying degrees of malty richness, late hops and bitterness, fruity esters, and alcohol warmth. Judges should allow for a significant range in character, as long as the beer is within the alcohol strength range and has an interesting ‘British’ character, it likely fits the style. The malt and adjunct flavors and intensity can vary widely, but any combination should result in an agreeable palate experience.",
         "aroma": "Malty-sweet with fruity esters, often with a complex blend of dried-fruit, caramel, nuts, toffee, and/or other specialty malt aromas. Some alcohol notes are acceptable, but shouldn't be hot or solventy. Hop aromas can vary widely, but typically have earthy, resiny, fruity, and/or floral notes. The balance can vary widely, but most examples will have a blend of malt, fruit, hops, and alcohol in varying intensities.",
@@ -2964,6 +3070,7 @@
           {
             "name": "Burton Ale",
             "id": "17A1",
+            "origin": "England",
             "overall_impression": "A rich, malty, sweet, and bitter dark ale of moderately strong alcohol. Full bodied and chewy with a balanced hoppy finish and complex malty and hoppy aroma. Fruity notes accentuate the malt richness, while the hops help balance the sweeter finish.",
             "aroma": "Moderately strong, rich, and sweet malty aroma with deep toast or dark caramel notes. No roasty or burnt malt apparent, but a bready and biscuity base is common. Dark or dried fruit (plums, figs, prunes, raisins) often present at up to a moderate level. A light alcohol presence may be noted, but should not be sharp. Hops can be light to moderate, and reflective of fruity, floral, woody, or spicy English varieties. The malt makes the strongest impression in the balance, but the other aspects add an aromatic complexity.",
             "appearance": "Light copper to dark brown in color. Darker versions can be nearly opaque, but clarity should be good when noted. Moderate-sized, fine-textured, cream-colored head, persistent.",
@@ -3013,6 +3120,8 @@
       {
         "name": "Old Ale",
         "id": "17B",
+        "origin": "England",
+        "family": "Strong Ale",
         "family_history": "Strong Ale",
         "overall_impression": "An ale of moderate to fairly significant alcoholic strength, bigger than standard beers, though usually not as strong or rich as barleywine. Often tilted towards a maltier balance. “It should be a warming beer of the type that is best drunk in half pints by a warm fire on a cold winter’s night” – Michael Jackson.",
         "aroma": "Malty-sweet with fruity esters, often with a complex blend of dried-fruit, vinous, caramelly, molasses, nutty, toffee, light treacle, and/or other specialty malt aromas. Some alcohol and oxidative notes are acceptable, akin to those found in Sherry or Port. Hop aromas not usually present due to extended aging.",
@@ -3066,6 +3175,8 @@
       {
         "name": "Wee Heavy",
         "id": "17C",
+        "origin": "Scotland",
+        "family": "Strong Ale",
         "overall_impression": "Rich, malty, dextrinous, and usually caramel-sweet, these beers can give an impression that is suggestive of a dessert. Complex secondary malt and alcohol flavors prevent a one-dimensional quality. Strength and maltiness can vary, but should not be cloying or syrupy.",
         "aroma": "Deeply malty, with a strong caramel component. Lightly smoky secondary aromas may also be present, adding complexity; peat smoke is inappropriate. Diacetyl should be low to none. Low to moderate esters and alcohol are often present in stronger versions. Hops are very low to none, and can be slightly earthy or floral.",
         "appearance": "Light copper to dark brown color, often with deep ruby highlights. Clear. Usually has a large tan head, which may not persist. Legs may be evident in stronger versions.",
@@ -3118,6 +3229,8 @@
       {
         "name": "English Barleywine",
         "id": "17D",
+        "origin": "England",
+        "family": "Strong Ale",
         "family_history": "Barleywine",
         "overall_impression": "A showcase of malty richness and complex, intense flavors. Chewy and rich in body, with warming alcohol and a pleasant fruity or hoppy interest. When aged, it can take on port-like flavors. A wintertime sipper.",
         "aroma": "Very rich and strongly malty, often with a caramel-like aroma in darker versions or a light toffee character in paler versions. May have moderate to strong fruitiness, often with a dark- or dried-fruit character, particularly in dark versions. The hop aroma may range from mild to assertive, and is typically floral, earthy, or marmalade-like. Alcohol aromatics may be low to moderate, but are soft and rounded. The intensity of these aromatics often subsides with age. The aroma may have a rich character including bready, toasty, toffee, and/or molasses notes. Aged versions may have a sherry-like quality, possibly vinous or port-like aromatics, and generally more muted malt aromas.",
@@ -3178,6 +3291,8 @@
       {
         "name": "Blonde Ale",
         "id": "18A",
+        "origin": "United States",
+        "family": "Pale Ale",
         "family_history": "Indigenous American Beer",
         "overall_impression": "Easy-drinking, approachable, malt-oriented American craft beer, often with interesting fruit, hop, or character malt notes. Well-balanced and clean, is a refreshing pint without aggressive flavors.",
         "aroma": "Light to moderate sweet malty aroma, possibly with a light bready or caramelly note. Low to moderate fruitiness is optional, but acceptable. May have a low to medium hop aroma, and can reflect almost any hop variety although citrusy, floral, fruity, and spicy notes are common.",
@@ -3230,6 +3345,7 @@
       {
         "name": "American Pale Ale",
         "id": "18B",
+        "family": "Pale Ale",
         "family_history": "American Pale Beer",
         "overall_impression": "A pale, refreshing and hoppy ale, yet with sufficient supporting malt to make the beer balanced and drinkable. The clean hop presence can reflect classic or modern American or New World hop varieties with a wide range of characteristics. An average-strength hop-forward pale American craft beer, generally balanced to be more accessible than modern American IPAs.",
         "aroma": "Moderate to strong hop aroma from American or New World hop varieties with a wide range of possible characteristics, including citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, or melon. None of these specific characteristics are required, but hops should be apparent. Low to moderate maltiness supports the hop presentation, and may optionally show small amounts of specialty malt character (bready, toasty, biscuit, caramelly). Fruity esters vary from moderate to none. Dry hopping (if used) may add grassy notes, although this character should not be excessive.",
@@ -3291,6 +3407,8 @@
       {
         "name": "American Amber Ale",
         "id": "19A",
+        "origin": "United States",
+        "family": "Amber Ale",
         "family_history": "American Pale Beer",
         "overall_impression": "An amber, hoppy, moderate-strength American craft beer with a caramel malty flavor. The balance can vary quite a bit, with some versions being fairly malty and others being aggressively hoppy. Hoppy and bitter versions should not have clashing flavors with the caramel malt profile.",
         "aroma": "Low to moderate hop aroma with characteristics typical of American or New World hop varieties (citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, or melon). A citrusy hop character is common, but not required. Moderately-low to moderately-high maltiness (usually with a moderate caramel character), which can either support, balance, or sometimes mask the hop presentation. Esters vary from moderate to none.",
@@ -3345,6 +3463,8 @@
       {
         "name": "California Common",
         "id": "19B",
+        "origin": "United States",
+        "family": "Amber Lager",
         "family_history": "Indigenous American Beer",
         "overall_impression": "A lightly fruity beer with firm, grainy maltiness, interesting toasty and caramel flavors, and showcasing rustic, traditional American hop characteristics.",
         "aroma": "Typically showcases rustic, traditional American hops (often with woody, rustic or minty qualities) in moderate to high strength. Light fruitiness acceptable. Low to moderate caramel and/or toasty malt aromatics support the hops.",
@@ -3397,6 +3517,8 @@
       {
         "name": "American Brown Ale",
         "id": "19C",
+        "origin": "United States",
+        "family": "Brown Ale",
         "family_history": "Dark American Beer",
         "overall_impression": "A malty but hoppy beer frequently with chocolate and caramel flavors. The hop flavor and aroma complements and enhances the malt rather than clashing with it.",
         "aroma": "Moderate malty-sweet to malty-rich aroma with chocolate, caramel, nutty, and/or toasty qualities. Hop aroma is typically low to moderate, of almost any variety that complements the malt. Some interpretations of the style may feature a stronger hop aroma, an American or New World hop character (citrusy, fruity, tropical, etc.), and/or a fresh dry-hopped aroma (all are optional). Fruity esters are moderate to very low. The dark malt character is more robust than other brown ales, yet stops short of being overly porter-like. The malt and hops are generally balanced.",
@@ -3459,6 +3581,8 @@
       {
         "name": "American Porter",
         "id": "20A",
+        "origin": "United States",
+        "family": "Porter",
         "family_history": "Dark American Beer",
         "overall_impression": "A substantial, malty dark beer with a complex and flavorful dark malt character.",
         "aroma": "Medium-light to medium-strong dark malt aroma, often with a lightly burnt character. Optionally may also show some additional malt character in support (grainy, bready, toffee-like, caramelly, chocolate, coffee, rich, and/or sweet). Hop aroma low to high, often with a resiny, earthy, or floral character. May be dry-hopped. Fruity esters are moderate to none.",
@@ -3515,6 +3639,8 @@
       {
         "name": "American Stout",
         "id": "20B",
+        "origin": "United States",
+        "family": "Stout",
         "family_history": "Dark American Beer",
         "overall_impression": "A fairly strong, highly roasted, bitter, hoppy dark stout. Has the body and dark flavors typical of stouts with a more aggressive American hop character and bitterness.",
         "aroma": "Moderate to strong aroma of roasted malts, often having a roasted coffee or dark chocolate quality. Burnt or charcoal aromas are acceptable at low levels. Medium to very low hop aroma, often with a citrusy or resiny character. Medium to no esters. Light alcohol-derived aromatics are also optional.",
@@ -3569,6 +3695,8 @@
       {
         "name": "Imperial Stout",
         "id": "20C",
+        "origin": "England",
+        "family": "Stout",
         "family_history": "English Stout",
         "overall_impression": "An intensely-flavored, big, dark ale with a wide range of flavor balances and regional interpretations. Roasty-burnt malt with deep dark or dried fruit flavors, and a warming, bittersweet finish. Despite the intense flavors, the components need to meld together to create a complex, harmonious beer, not a hot mess.",
         "aroma": "Rich and complex, with variable amounts of roasted grains, maltiness, fruity esters, hops, and alcohol. The roasted malt character can take on coffee, dark chocolate, or slightly burnt tones and can be light to moderately strong. The malt aroma can be subtle to rich and barleywine-like. May optionally show a slight specialty malt character (e.g., caramel), but this should only add complexity and not dominate. Fruity esters may be low to moderately strong, and may take on a complex, dark fruit (e.g., plums, prunes, raisins) character. Hop aroma can be very low to quite aggressive, and may contain any hop variety. An alcohol character may be present, but shouldn't be sharp, hot, or solventy. Aged versions may have a slight vinous or port-like quality, but shouldn't be sour. The balance can vary with any of the aroma elements taking center stage. Not all possible aromas described need be present; many interpretations are possible. Aging affects the intensity, balance and smoothness of aromatics.",
@@ -3635,6 +3763,8 @@
       {
         "name": "American IPA",
         "id": "21A",
+        "origin": "United States",
+        "family": "IPA",
         "family_history": "American Pale Beer",
         "overall_impression": "A decidedly hoppy and bitter, moderately strong American pale ale, showcasing modern American or New World hop varieties. The balance is hop-forward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing a creative range of hop character to shine through.",
         "aroma": "A prominent to intense hop aroma featuring one or more characteristics of American or New World hops, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A low to medium-low clean, grainy-malty aroma may be found in the background. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
@@ -3690,6 +3820,7 @@
       {
         "name": "Specialty IPA",
         "id": "21B",
+        "origin": "United States",
         "notes": "**Specialty IPA** isn't a distinct style, but is more appropriately thought of as a competition entry category. Beers entered as this style are not experimental beers; they are a collection of currently produced types of beer that may or may not have any market longevity. This category also allows for expansion, so potential future IPA variants (St. Patrick’s Day Green IPA, Romulan Blue IPA, Zima Clear IPA, etc.) have a place to be entered without redoing the style guidelines. The only common element is that they have the balance and overall impression of an IPA (typically, an American IPA) but with some minor tweak. The term ‘IPA’ is used as a singular descriptor of a type of hoppy, bitter beer. It is not meant to be spelled out as ‘India Pale Ale’ when used in the context of a Specialty IPA. None of these beers ever historically went to India, and many aren't pale. But the craft beer market knows what to expect in balance when a beer is described as an ‘IPA’ – so the modifiers used to differentiate them are based on that concept alone.",
         "overall_impression": "Recognizable as an IPA by balance – a hop-forward, bitter, dryish beer – with something else present to distinguish it from the standard categories. Should have good drinkability, regardless of the form. Excessive harshness and heaviness are typically faults, as are strong flavor clashes between the hops and the other specialty ingredients.",
         "aroma": "Detectable hop aroma is required; characterization of hops is dependent on the specific type of Specialty IPA. Other aromatics may be present; hop aroma is typically the strongest element.",
@@ -3723,6 +3854,7 @@
           {
             "name": "Belgian IPA",
             "id": "21B1",
+            "family": "IPA",
             "overall_impression": "An IPA with the fruitiness and spiciness derived from the use of Belgian yeast. The examples from Belgium tend to be lighter in color and more attenuated, similar to a tripel that has been brewed with more hops. This beer has a more complex flavor profile and may be higher in alcohol than a typical IPA.",
             "aroma": "Moderate to high hop aroma, often tropical, stone fruit, citrus or pine-like typical of American or New World hop varieties. Floral and spicy aromas are also found indicating European hops. Grassy aroma due to dry hopping may be present. Gentle, grainy-sweet malt aroma, with little to no caramel. Fruity esters are moderate to high and may include aromas of bananas, pears and apples. Light clove-like phenols may be noticeable. Belgian candi sugar-like aromas are sometimes present.",
             "appearance": "Light golden to amber in color. Off-white head is moderate to large in size and has good retention. Clarity is fair to quite hazy in dry hopped examples.",
@@ -3777,6 +3909,7 @@
           {
             "name": "Black IPA",
             "id": "21B2",
+            "family": "IPA",
             "family_history": "American Bitter Beer",
             "overall_impression": "A beer with the dryness, hop-forward balance, and flavor characteristics of an American IPA, only darker in color – but without strongly roasted or burnt flavors. The flavor of darker malts is gentle and supportive, not a major flavor component. Drinkability is a key characteristic.",
             "aroma": "A moderate to high hop aroma, often with a stone fruit, tropical, citrusy, resinous, piney, berry, or melon character. If dry hopped, can have an additional floral, herbal, or grassy aroma, although this is not required. Very low to moderate dark malt aroma, which can optionally include light chocolate, coffee, or toast notes. Some clean or lightly caramelly malty sweetness may be found in the background. Fruitiness, either from esters or from hops, may also be detected in some versions, although a neutral fermentation character is also acceptable.",
@@ -3831,6 +3964,7 @@
           {
             "name": "Brown IPA",
             "id": "21B3",
+            "family": "IPA",
             "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, chocolate, toffee, and/or dark fruit malt character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
             "aroma": "A moderate to moderately-strong fresh hop aroma featuring one or more characteristics of American or New World hops, such as tropical fruit, stone fruit, citrus, floral, spicy, berry, melon, pine, resinous, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features chocolate, nuts, dark caramel, toffee, toasted bread, and/or dark fruit character. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
             "appearance": "Color ranges from reddish-brown to dark brown but not black. Frequently opaque, but should be clear if visible. Unfiltered dry-hopped versions may be a bit hazy. Medium-sized, cream-colored to tan head with good persistence.",
@@ -3883,6 +4017,7 @@
           {
             "name": "Red IPA",
             "id": "21B4",
+            "family": "IPA",
             "family_history": "American Bitter Beer",
             "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, toffee, and/or dark fruit malt character. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Red IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
             "aroma": "A moderate to strong fresh hop aroma featuring one or more characteristics of American or New World hops, such as tropical fruit, stone fruit, citrus, floral, spicy, berry, melon, pine, resinous, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features caramel, toffee, toasty, and/or dark fruit character. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
@@ -3937,6 +4072,7 @@
           {
             "name": "Rye IPA",
             "id": "21B5",
+            "family": "IPA",
             "family_history": "American Bitter Beer",
             "overall_impression": "A decidedly hoppy and bitter, moderately strong American pale ale, showcasing modern American and New World hop varieties and rye malt. The balance is hop-forward, with a clean fermentation profile, dry finish, and clean, supporting malt allowing a creative range of hop character to shine through.",
             "aroma": "A prominent to intense hop aroma featuring one or more characteristics of American or New World hops, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. It may have low peppery rye malt aroma. A low to medium-low clean grainy-malty aroma may be found in the background. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.",
@@ -3991,6 +4127,7 @@
           {
             "name": "White IPA",
             "id": "21B6",
+            "family": "IPA",
             "family_history": "American Bitter Beer",
             "overall_impression": "A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring either the distinctive yeast and/or spice additions typical of a Belgian witbier.",
             "aroma": "Moderate fruity esters – banana, citrus, perhaps apricot. May have light to moderate spice aroma such as coriander or pepper from actual spice additions and/or Belgian yeast. Hop aroma is moderately-low to medium, usually American or New World type with stone fruit, citrus and tropical aromas. Esters and spices may reduce hop aroma perception. Light clove-like phenolics may be present.",
@@ -4045,6 +4182,7 @@
           {
             "name": "New England IPA",
             "id": "21B7",
+            "family": "IPA",
             "family_history": "American Bitter Beer",
             "overall_impression": "An American IPA with intense fruit flavors and aromas, a soft body, and smooth mouthfeel, and often opaque with substantial haze. Less perceived bitterness than traditional IPAs but always massively hop forward. This emphasis on late hopping, especially dry hopping, with hops with tropical fruit qualities lends the specific ‘juicy’ character for which this style is known.",
             "aroma": "Intense hop aroma, typically with fruity qualities (stone fruit, tropical fruit, and citrus are most commonly present) reflective of newer American and New World hop varieties without being grassy or herbaceous. Clean, neutral malt in the background, potentially with a light bready sweetness without caramel or toast. Absence of any malt character is a fault. Neutral to fruity fermentation character that is well-integrated with the hops. A creamy, buttery, or acidic aroma is inappropriate. Any perceived alcohol character should be restrained and never hot.",
@@ -4109,6 +4247,7 @@
       {
         "name": "Double IPA",
         "id": "22A",
+        "origin": "United States",
         "family_history": "American Bitter Beer",
         "overall_impression": "An intensely hoppy, fairly strong pale ale without the big, rich, complex maltiness and residual sweetness and body of an American barleywine. Strongly hopped, but clean, dry, and lacking harshness. Drinkability is an important characteristic; this should not be a heavy, sipping beer.",
         "aroma": "A prominent to intense hop aroma that typically showcases American or New World hop characteristics (citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc.). Most versions are dry hopped and can have an additional resinous or grassy aroma, although this is not absolutely required. Some clean malty sweetness may be found in the background. Fruitiness, either from esters or hops, may also be detected in some versions, although a neutral fermentation character is typical. Some alcohol can usually be noted, but it should not have a “hot” character.",
@@ -4164,6 +4303,8 @@
       {
         "name": "American Strong Ale",
         "id": "22B",
+        "origin": "United States",
+        "family": "Strong Ale",
         "family_history": "Strong Ale",
         "overall_impression": "A strong, full-flavored American ale that challenges and rewards the palate with full malty and hoppy flavors and substantial bitterness. The flavors are bold but complementary, and are stronger and richer than average-strength pale and amber American ales.",
         "aroma": "Medium to high hop aroma, most often presenting citrusy or resiny notes although characteristics associated with other American or New World varieties may be found (tropical, stone fruit, melon, etc.). Moderate to bold maltiness supports hop profile, with medium to dark caramel a common presence, bready or toasty possible and background notes of light roast and/or chocolate noticeable in some examples. Generally exhibits clean to moderately fruity ester profile. Moderate alcohol aromatics may be noticeable, but should not be hot, harsh, or solventy.",
@@ -4217,6 +4358,8 @@
       {
         "name": "American Barleywine",
         "id": "22C",
+        "origin": "United States",
+        "family": "Strong Ale",
         "family_history": "Barleywine",
         "overall_impression": "A well-hopped American interpretation of the richest and strongest of the English ales. The hop character should be evident throughout, but does not have to be unbalanced. The alcohol strength and hop bitterness often combine to leave a very long finish.",
         "aroma": "Hop character moderate to assertive and often showcases citrusy, fruity, or resiny New World varieties (although other varieties, such as floral, earthy or spicy English varieties or a blend of varieties, may be used). Rich maltiness, with a character that may be sweet, caramelly, bready, or fairly neutral. Low to moderately-strong fruity esters and alcohol aromatics. However, the intensity of aromatics often subsides with age. Hops tend to be nearly equal to malt in the aroma, with alcohol and esters far behind.",
@@ -4271,6 +4414,8 @@
       {
         "name": "Wheatwine",
         "id": "22D",
+        "origin": "United States",
+        "family": "Strong Ale",
         "family_history": "Barleywine",
         "overall_impression": "A richly textured, high alcohol sipping beer with a significant grainy, bready flavor and sleek body. The emphasis is first on the bready, wheaty flavors with interesting complexity from malt, hops, fruity yeast character and alcohol complexity.",
         "aroma": "Hop aroma is mild and can represent just about any late hop aromatic. Moderate to moderately-strong bready, wheaty malt character, often with additional malt complexity such as honey and caramel. A light, clean, alcohol aroma may noted. Low to medium fruity notes may be apparent. Very low levels of diacetyl are acceptable but not required. Weizen yeast character (banana/clove) is inappropriate.",
@@ -4331,6 +4476,8 @@
       {
         "name": "Berliner Weisse",
         "id": "23A",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "German Sour Ale",
         "overall_impression": "A very pale, refreshing, low-alcohol German wheat beer with a clean lactic sourness and a very high carbonation level. A light bread dough malt flavor supports the sourness, which shouldn't seem artificial. Any _Brettanomyces_ funk is restrained.",
         "aroma": "A sharply sour character is dominant (moderate to moderately-high). Can have up to a moderately fruity character (often lemony or tart apple). The fruitiness may increase with age and a light flowery character may develop. No hop aroma. The wheat may present as uncooked bread dough in fresher versions; combined with the acidity, may suggest sourdough bread. May optionally have a restrained funky _Brettanomyces_ character.",
@@ -4382,6 +4529,8 @@
       {
         "name": "Flanders Red Ale",
         "id": "23B",
+        "origin": "Belgium",
+        "family": "Sour Ale",
         "family_history": "Belgian Sour Ale",
         "overall_impression": "A sour, fruity, red wine-like Belgian-style ale with interesting supportive malt flavors and fruit complexity. The dry finish and tannin completes the mental image of a fine red wine.",
         "aroma": "Complex fruity-sour profile with supporting malt that often gives a wine-like impression. Fruitiness is high, and reminiscent of black cherries, oranges, plums or red currants. There are often low to medium-low vanilla and/or chocolate notes. Spicy phenols can be present in low amounts for complexity. The sour aroma ranges from balanced to intense. Prominent vinegary acetic character is inappropriate. No hop aroma. Diacetyl is perceived only in very minor quantities, if at all, as a complementary aroma.",
@@ -4436,6 +4585,8 @@
       {
         "name": "Oud Bruin",
         "id": "23C",
+        "origin": "Belgium",
+        "family": "Sour Ale",
         "family_history": "Belgian Sour Ale",
         "overall_impression": "A malty, fruity, aged, somewhat sour Belgian-style brown ale.",
         "aroma": "Complex combination of fruity esters and rich malt character. Medium to medium-high esters commonly reminiscent of raisins, plums, figs, dates, black cherries or prunes. Medium low to medium high malt character of caramel, toffee, orange, treacle or chocolate. Spicy phenols can be present in low amounts for complexity. A sherry-like character may be present and generally denotes an aged example. A low sour aroma may be present, and can modestly increase with age but should not grow to a noticeable acetic/vinegary character. Hop aroma absent. Diacetyl is perceived only in very minor quantities, if at all, as a complementary aroma.",
@@ -4490,6 +4641,8 @@
       {
         "name": "Lambic",
         "id": "23D",
+        "origin": "Belgium",
+        "family": "Wheat Beer",
         "family_history": "Belgian Sour Ale",
         "overall_impression": "A fairly sour, often moderately funky wild Belgian wheat beer with sourness taking the place of hop bitterness in the balance. Traditionally spontaneously fermented in the Brussels area and served uncarbonated, the refreshing acidity makes for a very pleasant café drink.",
         "aroma": "A decidedly sour aroma is often dominant in young examples, but may become more subdued with age as it blends with aromas described as barnyard, earthy, goaty, hay, horsey, and horse blanket. A mild citrus-fruity aroma is considered favorable. An enteric, smoky, cigar-like, or cheesy aroma is unfavorable. Older versions are commonly fruity with aromas of apples or even honey. No hop aroma.",
@@ -4538,6 +4691,8 @@
       {
         "name": "Gueuze",
         "id": "23E",
+        "origin": "Belgium",
+        "family": "Wheat Beer",
         "family_history": "Belgian Sour Ale",
         "overall_impression": "A complex, pleasantly sour but balanced wild Belgian wheat beer that is highly carbonated and very refreshing. The spontaneous fermentation character can provide a very interesting complexity, with a wide range of wild barnyard, horse blanket, or leather characteristics intermingling with citrusy-fruity flavors and acidity.",
         "aroma": "A moderately sour aroma blends with aromas described as barnyard, leather, earthy, goaty, hay, horsey, and horse blanket. While some may be more dominantly sour, balance is the key and denotes a better gueuze. Commonly fruity with aromas of citrus fruits (often grapefruit), apples or other light fruits, rhubarb, or honey. A very mild oak aroma is considered favorable. An enteric, smoky, cigar-like, or cheesy aroma is unfavorable. No hop aroma.",
@@ -4597,6 +4752,8 @@
       {
         "name": "Fruit Lambic",
         "id": "23F",
+        "origin": "Belgium",
+        "family": "Wheat Beer",
         "family_history": "Belgian Sour Ale",
         "overall_impression": "A complex, fruity, pleasantly sour, wild wheat ale fermented by a variety of Belgian microbiota, and showcasing the fruit contributions blended with the wild character. The type of fruit can sometimes be hard to identify as fermented and aged fruit characteristics can seem different from the more recognizable fresh fruit aromas and flavors.",
         "aroma": "The specified fruit should be the dominant aroma. A low to moderately sour character blends with aromas described as barnyard, earthy, goaty, hay, horsey, and horse blanket (and thus should be recognizable as a lambic). The fruit aroma commonly blends well with the other aromas. An enteric, smoky, cigar-like, or cheesy aroma is unfavorable. No hop aroma.",
@@ -4669,6 +4826,8 @@
       {
         "name": "Witbier",
         "id": "24A",
+        "origin": "Belgium",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "A refreshing, elegant, tasty, moderate-strength wheat-based ale.",
         "aroma": "Moderate malty sweetness (often with light notes of honey and/or vanilla) with light, grainy, spicy wheat aromatics, often with a bit of tartness. Moderate perfumy coriander, often with a complex herbal, spicy, or peppery note in the background. Moderate zesty, citrusy-orangey fruitiness. A low spicy-herbal hop aroma is optional, but should never overpower the other characteristics. Vegetal, celery-like, or ham-like aromas are inappropriate. Spices should blend in with fruity, floral and sweet aromas and should not be overly strong.",
@@ -4723,6 +4882,8 @@
       {
         "name": "Belgian Pale Ale",
         "id": "24B",
+        "origin": "Belgium",
+        "family": "Pale Ale",
         "family_history": "Pale Ales",
         "overall_impression": "A moderately malty, somewhat fruity, easy-drinking, copper-colored Belgian ale that is somewhat less aggressive in flavor profile than many other Belgian beers. The malt character tends to be a bit biscuity with light toasty, honey-like, or caramelly components; the fruit character is noticeable and complementary to the malt. The bitterness level is generally moderate, but may not seem as high due to the flavorful malt profile.",
         "aroma": "Moderate malt aroma, which can be a combination of toasty, biscuity, or nutty, possibly with a touch of light caramel or honey. Moderate to moderately high fruitiness with an orange- or pear-like character. Low to moderate strength hop character (spicy, herbal, or floral) optionally blended with background level peppery, spicy phenols. The hop character is lower in balance than the malt and fruitiness.",
@@ -4774,6 +4935,8 @@
       {
         "name": "Bière de Garde",
         "id": "24C",
+        "origin": "France",
+        "family": "Amber Ale",
         "family_history": "European Farmhouse Beer",
         "overall_impression": "A fairly strong, malt-accentuated, lagered artisanal beer with a range of malt flavors appropriate for the color. All are malty yet dry, with clean flavors and a smooth character.",
         "aroma": "Prominent malty sweetness, often with a complex, light to moderate intensity toasty-bready-rich malt character. Low to moderate esters. Little to no hop aroma (may be a bit spicy, peppery, or herbal). Paler versions will still be malty but will lack richer, deeper aromatics and may have a bit more hops. Generally quite clean, although stronger versions may have a light, spicy alcohol note as it warms.",
@@ -4837,6 +5000,8 @@
       {
         "name": "Belgian Blonde Ale",
         "id": "25A",
+        "origin": "Belgium",
+        "family": "Pale Ale",
         "family_history": "Belgian Ale",
         "overall_impression": "A moderate-strength golden ale that has a subtle fruity-spicy Belgian yeast complexity, slightly malty-sweet flavor, and dry finish.",
         "aroma": "Light earthy or spicy hop nose, along with a lightly grainy-sweet malt character. Shows a subtle yeast character that may include spicy phenolics, perfumy or honey-like alcohol, or yeasty, fruity esters (commonly orange-like or lemony). Light sweetness that may have a slightly sugar-like character. Subtle yet complex.",
@@ -4888,6 +5053,8 @@
       {
         "name": "Saison",
         "id": "25B",
+        "origin": "Belgium",
+        "family": "Pale Ale",
         "family_history": "European Farmhouse Beer",
         "overall_impression": "Most commonly, a pale, refreshing, highly-attenuated, moderately-bitter, moderate-strength Belgian ale with a very dry finish. Typically highly carbonated, and using non-barley cereal grains and optional spices for complexity, as complements the expressive yeast character that is fruity, spicy, and not overly phenolic. Less common variations include both lower-alcohol and higher-alcohol products, as well as darker versions with additional malt character.",
         "aroma": "Quite aromatic, with fruity, spicy, and hoppy characteristics evident. The esters can be fairly high (moderate to high), and are often reminiscent of citrus fruits such as oranges or lemons. The hops are low to moderate and are often spicy, floral, earthy, or fruity. Stronger versions can have a soft, spicy alcohol note (low intensity). Spicy notes are typically peppery rather than clove-like, and can be up to moderately-strong (typically yeast-derived). Subtle, complementary herb or spice additions are allowable, but should not dominate. The malt character is typically slightly grainy in character and low in intensity. Darker and stronger versions will have more noticeable malt, with darker versions taking characteristics associated with grains of that color (toasty, biscuity, caramelly, chocolate, etc.). In versions where sourness is present instead of bitterness, some of the sour character can be detected (low to moderate).",
@@ -4967,6 +5134,8 @@
       {
         "name": "Belgian Golden Strong Ale",
         "id": "25C",
+        "origin": "Belgium",
+        "family": "Strong Ale",
         "family_history": "Belgian Strong Ale",
         "overall_impression": "A pale, complex, effervescent, strong Belgian-style ale that is highly attenuated and features fruity and hoppy notes in preference to phenolics.",
         "aroma": "Complex with significant fruity esters, moderate spiciness and low to moderate alcohol and hop aromas. Esters are reminiscent of lighter fruits such as pears, oranges or apples. Moderate to moderately low spicy, peppery phenols. A low to moderate yet distinctive perfumy, floral hop character is often present. Alcohols are soft, spicy, perfumy and low-to-moderate in intensity. No hot alcohol or solventy aromas. The malt character is light and slightly grainy-sweet to nearly neutral.",
@@ -5028,6 +5197,8 @@
       {
         "name": "Trappist Single",
         "id": "26A",
+        "origin": "Belgium",
+        "family": "Pale Ale",
         "family_history": "Belgian Ale",
         "overall_impression": "A pale, bitter, highly attenuated and well carbonated Trappist ale, showing a fruity-spicy Trappist yeast character, a spicy-floral hop profile, and a soft, supportive grainy-sweet malt palate.",
         "aroma": "Medium-low to medium-high Trappist yeast character, showing a fruity-spicy character along with medium-low to medium spicy or floral hops, occasionally enhanced by light herbal/citrusy spice additions. Low to medium-low grainy-sweet malt backdrop, which may have a light honey or sugar quality. Fruit expression can vary widely (citrus, pome fruit, stone fruit). Light spicy, yeast-driven phenolics found in the best examples. Bubblegum inappropriate.",
@@ -5079,6 +5250,8 @@
       {
         "name": "Belgian Dubbel",
         "id": "26B",
+        "origin": "Belgium",
+        "family": "Amber Ale",
         "family_history": "Belgian Ale",
         "overall_impression": "A deep reddish-copper, moderately strong, malty, complex Trappist ale with rich malty flavors, dark or dried fruit esters, and light alcohol blended together in a malty presentation that still finishes fairly dry.",
         "aroma": "Complex, rich-sweet malty aroma, possibly with hints of chocolate, caramel and/or toast (but never roasted or burnt aromas). Moderate fruity esters (usually including raisins and plums, sometimes also dried cherries). Esters sometimes include banana or apple. Spicy phenols and higher alcohols are common (may include light clove and spice, peppery, rose-like and/or perfumy notes). Spicy qualities can be moderate to very low. Alcohol, if present, is soft and never hot or solventy. Low to no spicy, herbal, or floral hop aroma, typically absent. The malt is most prominent in the balance with esters and a touch of alcohol in support, blending together for a harmonious presentation.",
@@ -5133,6 +5306,8 @@
       {
         "name": "Belgian Tripel",
         "id": "26C",
+        "origin": "Belgium",
+        "family": "Strong Ale",
         "family_history": "Belgian Strong Ale",
         "overall_impression": "A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol level.",
         "aroma": "Complex bouquet with moderate to significant spiciness, moderate fruity esters and low alcohol and hop aromas. Generous spicy, peppery, sometimes clove-like phenols. Esters are often reminiscent of citrus fruits such as oranges, but may sometimes have a slight banana character. A low yet distinctive spicy, floral, sometimes perfumy hop character is usually found. Alcohols are soft, spicy and low in intensity. The malt character is light, with a soft, slightly grainy-sweet or slightly honey-like impression. The best examples have a seamless, harmonious interplay between the yeast character, hops, malt, and alcohol.",
@@ -5188,6 +5363,8 @@
       {
         "name": "Belgian Dark Strong Ale",
         "id": "26D",
+        "origin": "Belgium",
+        "family": "Strong Ale",
         "family_history": "Belgian Strong Ale",
         "overall_impression": "A dark, complex, very strong Belgian ale with a delicious blend of malt richness, dark fruit flavors, and spicy elements. Complex, rich, smooth and dangerous.",
         "aroma": "Complex, with a rich-sweet malty presence, significant esters and alcohol, and an optional light to moderate spiciness. The malt is rich and strong, and can have a deep bready-toasty quality often with a deep caramel complexity. The fruity esters are strong to moderately low, and can contain raisin, plum, dried cherry, fig or prune notes. Spicy phenols may be present, but usually have a peppery quality not clove-like; light vanilla is possible. Alcohols are soft, spicy, perfumy and/or rose-like, and are low to moderate in intensity. Hops are not usually present (but a very low spicy, floral, or herbal hop aroma is acceptable). No dark/roast malt aroma. No hot alcohols or solventy aromas.",
@@ -5249,6 +5426,8 @@
       {
         "name": "Gose",
         "id": "27A1",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "German Sour Ale",
         "overall_impression": "A highly-carbonated, tart and fruity wheat ale with a restrained coriander and salt character and low bitterness. Very refreshing, with bright flavors and high attenuation.",
         "aroma": "Light to moderately fruity aroma of pome fruit. Light sourness, slightly sharp. Noticeable coriander, which can have an aromatic lemony quality, and an intensity up to moderate. Light bready, doughy, yeasty character like uncooked sourdough bread. The acidity and coriander can give a bright, lively impression. The salt may be perceived as a very light, clean sea breeze character or just a general freshness, if noticeable at all.",
@@ -5300,6 +5479,8 @@
       {
         "name": "Kentucky Common",
         "id": "27A2",
+        "origin": "United States",
+        "family": "Amber Ale",
         "family_history": "Indigenous American Beer",
         "overall_impression": "A darker-colored, light-flavored, malt-accented beer with a dry finish and interesting character malt flavors. Refreshing due to its high carbonation and mild flavors, and highly sessionable due to being served very fresh and with restrained alcohol levels.",
         "aroma": "Low to medium grainy, corn-like or sweet maltiness with a low toast, biscuity-grainy, bready, or caramel malt accent. Medium to moderately-low hop aroma, usually floral or spicy in character. Clean fermentation character, with possible faint berry ester. Low levels of DMS are acceptable. No sourness. Malt-forward in the balance.",
@@ -5346,8 +5527,10 @@
       },
       {
         "name": "Lichtenhainer",
+        "family": "Wheat Beer",
         "family_history": "European Smoked Beer",
         "id": "27A3",
+        "origin": "Germany",
         "overall_impression": "A sour, smoked, lower-gravity historical German wheat beer. Complex yet refreshing character due to high attenuation and carbonation, along with low bitterness and moderate sourness.",
         "aroma": "Moderately strong fresh smoky aroma, light hints of sourness, medium-low fruity esters, possibly apples or lemons, moderate bready-grainy malt. The smoke character is stronger than the bready notes, and the smoke has a ‘dry’ character, like the remnants of an old fire, not a ‘greasy’ smoke.",
         "appearance": "Tall off-white head, rocky and persistent. Deep yellow to light gold color. Fair clarity, may be somewhat hazy.",
@@ -5393,6 +5576,8 @@
       {
         "name": "London Brown Ale",
         "id": "27A4",
+        "origin": "England",
+        "family": "Brown Ale",
         "overall_impression": "A luscious, sweet, malt-oriented dark brown ale, with caramel and toffee malt complexity and a sweet finish.",
         "aroma": "Moderate malty-sweet aroma, often with a rich, caramel or toffee-like character. Low to medium fruity esters, often dark fruit like plums. Very low to no hop aroma, earthy or floral qualities.",
         "appearance": "Medium to very dark brown color, but can be nearly black. Nearly opaque, although should be relatively clear if visible. Low to moderate off-white to tan head.",
@@ -5442,6 +5627,8 @@
       {
         "name": "Piwo Grodziskie",
         "id": "27A5",
+        "origin": "Poland",
+        "family": "Wheat Beer",
         "family_history": "European Smoked Beer",
         "overall_impression": "A low-gravity, highly-carbonated, light-bodied ale combining an oak-smoked flavor with a clean hop bitterness. Highly sessionable.",
         "aroma": "Low to moderate oak wood smoke is the most prominent aroma component, but can be subtle and hard to detect. A low spicy, herbal, or floral hop aroma is typically present, and should be lower than or equal to the smoke in intensity. Hints of grainy wheat are also detected in the best examples. The aroma is otherwise clean, although light pome fruit esters (especially ripe red apple or pear) are welcome. No acidity. Slight water-derived sulfury notes may be present.",
@@ -5488,6 +5675,8 @@
       {
         "name": "Pre-Prohibition Lager",
         "id": "27A6",
+        "origin": "United States",
+        "family": "Pilsner",
         "family_history": "Pilsner",
         "overall_impression": "A clean, refreshing, but bitter pale lager, often showcasing a grainy-sweet corn flavor. All malt or rice-based versions have a crisper, more neutral character. The higher bitterness level is the largest differentiator between this style and most modern mass-market pale lagers, but the more robust flavor profile also sets it apart.",
         "aroma": "Low to medium grainy, corn-like or sweet maltiness may be evident (although rice-based beers are more neutral). Medium to moderately high hop aroma, with a range of character from rustic to floral to herbal/spicy; a fruity or citrusy modern hop character is inappropriate. Clean lager character. Low DMS is acceptable. May show some yeast character, as with modern American lagers; allow for a range of subtle supporting yeast notes.",
@@ -5540,6 +5729,8 @@
       {
         "name": "Pre-Prohibition Porter",
         "id": "27A7",
+        "origin": "United States",
+        "family": "Porter",
         "family_history": "Dark American Beer",
         "overall_impression": "An American adaptation of English Porter using American ingredients, including adjuncts.",
         "aroma": "Base grainy malt aroma with low levels of dark malt (slight burnt or chocolate notes). Low hop aroma. Low to moderate low levels of DMS acceptable. May show low levels of caramel and biscuit aroma. No to very low esters. Light adjunct (licorice, molasses) aroma acceptable. Diacetyl low to none. Clean lager profile acceptable.",
@@ -5589,6 +5780,8 @@
       {
         "name": "Roggenbier",
         "id": "27A8",
+        "origin": "Germany",
+        "family": "Wheat Beer",
         "family_history": "Wheat Beer",
         "overall_impression": "A dunkelweizen made with rye rather than wheat, but with a greater body and light finishing hops.",
         "aroma": "Light to moderate spicy rye aroma intermingled with light to moderate weizen yeast aromatics (spicy clove and fruity esters, either banana or citrus). Light spicy, floral, or herbal hops are acceptable.",
@@ -5636,6 +5829,8 @@
       {
         "name": "Sahti",
         "id": "27A9",
+        "origin": "Scandinavia",
+        "family": "Wheat Beer",
         "family_history": "European Farmhouse Beer",
         "overall_impression": "A sweet, heavy, strong traditional Finnish beer with a rye, juniper, and juniper berry flavor and a strong banana-clove yeast character.",
         "aroma": "High banana esters with moderate to moderately-high clove-like phenolics. Not sour. May have a low to moderate juniper character. Grainy malt, caramel, and rye in background. Light alcohol aroma. Sweet malt impression.",

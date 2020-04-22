@@ -125,6 +125,10 @@ public class Producer implements Runnable {
         props.put("bjcp:style_comparison", getValue(subcat, "style_comparison"));
         props.put("bjcp:commercial_examples", getValues(subcat, "commercial_examples"));
         props.put("bjcp:tags", getValues(subcat, "tags"));
+        props.put("bjcp:style", styleId);
+        props.put("bjcp:family", getValue(subcat, "family"));
+        props.put("bjcp:family_history", getValue(subcat, "family_history"));
+        props.put("bjcp:origin", getValue(subcat, "origin"));
         JsonNode vital = subcat.get("vital_statistics");
         if (vital != null) {
             props.put("bjcp:original_extract", getMinMax(vital, "original_extract"));

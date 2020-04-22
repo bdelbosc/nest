@@ -46,7 +46,7 @@ public class Producer implements Runnable {
     @Override
     public void run() {
         try {
-            for (;;) {
+            for (; ; ) {
                 String line = reader.readLine();
                 if (line == null || EOF.equals(line)) {
                     log.debug("End of file, terminating producer");
@@ -59,6 +59,10 @@ public class Producer implements Runnable {
         } catch (IOException e) {
             log.error(e.getMessage(), e);
             throw new RuntimeException(e);
+        } catch (Exception e) {
+            // Exception in an executor are catched make sure they are logged
+            log.error(e.getMessage(), e);
+            throw e;
         }
     }
 
